@@ -1,0 +1,6 @@
+<Project>
+  <PropertyGroup>
+    <GameManaged Condition="'$(GameManaged)' == '' and '$(OS)' == 'Windows_NT'">C:/Program Files (x86)/Steam/steamapps/common/From The Depths/From_The_Depths_Data/Managed</GameManaged>
+    <HarmonyPath Condition="'$(HarmonyPath)' == ''">$(MSBuildThisFileDirectory)lib/0Harmony.dll</HarmonyPath>
+  </PropertyGroup>
+</Project>

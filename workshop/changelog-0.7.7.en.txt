@@ -1,0 +1,8 @@
+Ranked Battles 0.7.7
+
+- Add an optional recovery email field during signup. If provided, signup continues to an 8-digit verification code screen. Email delivery failures do not undo account creation; verification can be retried later.
+- Reorganize the Account tab into profile and security sections, with larger information text and clearer recovery-email status.
+- Align account input fields to consistent widths, heights and label positions. Group signup fields together above their instructions.
+- Simplify email/password editing screens while preserving native FTD buttons and Korean, Japanese and English support.
+
+Existing accounts, fleets, ratings and match rules are preserved. Finish any active match, update through Content > Mods > Download, then restart FTD.

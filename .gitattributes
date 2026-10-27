@@ -1,0 +1,4 @@
+# Preserve snapshot bytes, including source files with CRLF line endings.
+* -text
+*.png binary
+*.jpg binary

@@ -1,0 +1,52 @@
+아이디를 입력하세요.	Enter your username.	ユーザーIDを入力してください。
+로그인해 주세요.	Please sign in.	ログインしてください。
+로그인이 만료되었거나 다른 곳에서 로그인했습니다. 다시 로그인하세요.	Session expired or signed in elsewhere. Sign in again.	ログインの有効期限が切れたか、別の場所でログインしました。再度ログインしてください。
+시도가 너무 많습니다. 최대 15분 뒤 다시 시도하세요.	Too many attempts. Try again in up to 15 minutes.	試行回数が多すぎます。最大15分待ってから再試行してください。
+아이디·닉네임이 사용 중이거나 계정 정보가 변경되었습니다. 다시 시도하세요.	Username or nickname is taken, or account details changed. Try again.	ID・ニックネームが使用中か、アカウント情報が変更されました。再試行してください。
+계정을 찾을 수 없습니다.	Account not found.	アカウントが見つかりません。
+회원가입·로그인을 지원하는 모드로 업데이트하세요.	Update to a mod version that supports account registration and sign-in.	アカウント登録とログインに対応するMODに更新してください。
+인증 요청 경로가 올바르지 않습니다.	Invalid authentication request.	認証リクエストが不正です。
+로그인에는 HTTPS 서버 주소가 필요합니다.	Sign-in requires an HTTPS server.	ログインにはHTTPSサーバーが必要です。
+먼저 기존 계정에 아이디를 등록하세요.	Set a username for your existing account first.	既存のアカウントにユーザーIDを登録してください。
+신규 참가 등록이 닫혀 있습니다.	Registration is closed.	新規登録の受付は終了しています。
+아이디 또는 닉네임이 이미 사용 중이거나 참가 정원에 도달했습니다.	Username or nickname is taken, or registration is full.	IDまたはニックネームが使用中か、参加定員に達しています。
+이미 아이디가 등록된 계정입니다.	This account already has a username.	このアカウントにはユーザーIDが登録済みです。
+아이디 또는 비밀번호가 올바르지 않습니다.	Incorrect username or password.	ユーザーIDまたはパスワードが正しくありません。
+로그인 중 계정 정보가 변경되었습니다. 다시 시도하세요.	Account details changed during sign-in. Try again.	ログイン中にアカウント情報が変更されました。再試行してください。
+서버 인증 비밀키 설정이 필요합니다. 운영자에게 알려 주세요.	Server authentication is not configured. Contact the administrator.	サーバーの認証設定が必要です。管理者に連絡してください。
+서버 계정 제한 설정이 잘못되었습니다.	Invalid server account limit. Contact the administrator.	サーバーのアカウント上限設定が不正です。管理者に連絡してください。
+최소 클라이언트 버전 설정이 없습니다.	Server client-version policy is missing.	サーバーの最低クライアントバージョン設定がありません。
+결과는 패배(0), 무승부(0.5), 승리(1) 중 하나입니다.	Result must be loss (0), draw (0.5), or win (1).	結果は敗北(0)、引き分け(0.5)、勝利(1)のいずれかです。
+지원하지 않는 경기 판정 방식입니다.	Unsupported result policy.	未対応の試合判定方式です。
+전투 종료 시각과 두 편대의 체력비·전멸 여부가 필요합니다.	Result is missing battle duration, fleet health or elimination status.	戦闘時間、両艦隊の耐久率、全滅状態が必要です。
+제한 시간 전에 판정승을 제출할 수 없습니다.	A judgment result cannot be submitted before the time limit.	制限時間前に判定勝ちを提出することはできません。
+종료 상태와 경기 결과가 일치하지 않습니다.	Battle state and result do not match.	終了状態と試合結果が一致しません。
+검사할 BP 원본이 없습니다. 다시 업로드하세요.	Blueprint source missing. Upload it again.	検査するBP原本がありません。再アップロードしてください。
+BP JSON을 읽지 못했습니다. 게임에서 다시 저장하세요.	Could not read blueprint JSON. Save it again in the game.	BPのJSONを読み込めません。ゲームで保存し直してください。
+BP 파일이 비어 있습니다.	Blueprint file is empty.	BPファイルが空です。
+BP 파일 크기가 일치하지 않습니다.	Blueprint file size does not match.	BPファイルサイズが一致しません。
+저장된 BP 파일이 손상되었습니다. 운영자에게 알려 주세요.	Stored blueprint is damaged. Contact the administrator.	保存されたBPが破損しています。管理者に連絡してください。
+이 계정의 경기가 아닙니다.	This match does not belong to your account.	このアカウントの試合ではありません。
+서버 DB 마이그레이션이 필요합니다. 운영자에게 알려 주세요.	Server database needs an update. Contact the administrator.	サーバーDBの更新が必要です。管理者に連絡してください。
+대회를 찾을 수 없습니다.	Event not found.	大会が見つかりません。
+존재하지 않는 요청입니다.	Request not found.	リクエストが見つかりません。
+요청이 너무 큽니다.	Request is too large.	リクエストが大きすぎます。
+기체 이름 형식이 잘못되었습니다.	Invalid vehicle name.	機体名の形式が不正です。
+게임이 계산한 기체 비용이 필요합니다.	Vehicle cost calculated by the game is required.	ゲームで計算した機体コストが必要です。
+BP SHA-256 값이 필요합니다.	Blueprint checksum is required.	BPのチェックサムが必要です。
+BP 파일 크기가 필요합니다.	Blueprint file size is required.	BPファイルサイズが必要です。
+계정의 BP 보관 한도에 도달했습니다.	Account blueprint storage limit reached.	アカウントのBP保存上限に達しました。
+서버 BP 보관 제한 설정이 잘못되었습니다.	Invalid server blueprint storage limit.	サーバーのBP保存上限設定が不正です。
+BP 해시가 일치하지 않습니다.	Blueprint checksum does not match.	BPのチェックサムが一致しません。
+먼저 모든 BP 파일을 업로드하세요.	Upload all blueprint files first.	先にすべてのBPをアップロードしてください。
+함대 이름을 입력하세요.	Enter a fleet name.	艦隊名を入力してください。
+지금은 함대를 제출할 수 없습니다.	Fleet submission is currently closed.	現在は艦隊を提出できません。
+대회 규칙이 바뀌었습니다. 다시 불러오세요.	Event rules changed. Refresh the event.	大会ルールが変更されました。再取得してください。
+BP·수량 교체 대기, 진행 중인 경기 또는 변경된 대회 접수 상태·규칙을 확인하세요. 진형만 수정하면 교체 대기는 적용되지 않습니다.	Check the replacement cooldown, active match and current event rules. Formation-only edits have no cooldown.	交換の待機時間、進行中の試合、大会ルールを確認してください。陣形のみの変更には待機時間はありません。
+다른 대회의 진행 중인 경기를 먼저 마치거나 항복하세요.	Finish or surrender your active match in the other event first.	別の大会で進行中の試合を終えるか降参してください。
+종료된 대회입니다.	This event has ended.	この大会は終了しています。
+최신 대회 규칙으로 함대를 제출하세요.	Submit your fleet under the current event rules.	最新の大会ルールに従って艦隊を提出してください。
+이 대회에 매칭 가능한 다른 함대가 없습니다.	No other fleet is available for matching in this event.	この大会には対戦可能な艦隊がありません。
+매칭 상태가 변경되었습니다. 다시 시도하세요.	Match state changed. Try again.	マッチング状態が変更されました。再試行してください。
+이 경기의 BP가 아닙니다.	This blueprint does not belong to this match.	この試合のBPではありません。
+경기 BP 파일이 없습니다. 운영자에게 알려 주세요.	Match blueprint missing. Contact the administrator.	試合のBPがありません。管理者に連絡してください。

@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><OutputType>Exe</OutputType><TargetFramework>net10.0</TargetFramework></PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../../src/FleetPlan.cs" Link="FleetPlan.cs" />
+    <Compile Include="../../src/FormationMap.cs" Link="FormationMap.cs" />
+    <Compile Include="../../src/FleetPresentation.cs" Link="FleetPresentation.cs" />
+    <Compile Include="../../src/BattlefieldView.cs" Link="BattlefieldView.cs" />
+    <Compile Include="../../src/MatchStorage.cs" Link="MatchStorage.cs" />
+    <Reference Include="Newtonsoft.Json" HintPath="$(GameManaged)/Newtonsoft.Json.dll" />
+  </ItemGroup>
+<ItemGroup><Compile Include="../../src/Language.cs" Link="Language.cs" /><EmbeddedResource Include="../../assets/languages.json" LogicalName="FtdRank.Languages.json" /></ItemGroup></Project>

@@ -1,0 +1,50 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "ftd-ranked",
+  "main": "src/index.js",
+  "keep_names": false,
+  "minify": false,
+  "compatibility_date": "2026-10-22",
+  "workers_dev": true,
+  "observability": {
+    "enabled": false
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "ftd-ranked",
+      "database_id": "00000000-0000-0000-0000-000000000000",
+      "migrations_dir": "migrations"
+    }
+  ],
+  "vars": {
+    "REGISTRATION_OPEN": "true",
+    "MAX_ACCOUNTS": "1000",
+    "BLUEPRINT_WRITE_DB": "DB",
+    "BLUEPRINT_CLEANUP": "true",
+    "CHAT_ENABLED": "true"
+  },
+  "triggers": {
+    "crons": [
+      "* * * * *",
+      "*/15 * * * *"
+    ]
+  },
+  "preview_urls": false,
+  "durable_objects": {
+    "bindings": [
+      {
+        "name": "CHAT",
+        "class_name": "RankedChat"
+      }
+    ]
+  },
+  "migrations": [
+    {
+      "new_sqlite_classes": [
+        "RankedChat"
+      ],
+      "tag": "chat-v1"
+    }
+  ]
+}

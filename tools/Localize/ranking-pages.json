@@ -1,0 +1,9 @@
+{
+  "Ranking.Previous": { "ko": "이전 페이지", "en": "Previous page", "ja": "前のページ" },
+  "Ranking.Next": { "ko": "다음 페이지", "en": "Next page", "ja": "次のページ" },
+  "Ranking.Page": { "ko": "{0} / {1} 페이지", "en": "Page {0} / {1}", "ja": "{0} / {1} ページ" },
+  "Ranking.Range": { "ko": "전체 {2:N0}명 · {0:N0}–{1:N0}번째 참가자", "en": "Players {0:N0}–{1:N0} of {2:N0}", "ja": "全{2:N0}人中 {0:N0}–{1:N0}人目" },
+  "Ranking.Refresh": { "ko": "현재 페이지 새로고침", "en": "Refresh the current page", "ja": "現在のページを更新" },
+  "Ranking.Empty": { "ko": "아직 순위표에 등록된 참가자가 없습니다.", "en": "No ranked players yet.", "ja": "ランキングに登録された参加者はまだいません。" },
+  "Ranking.InvalidResponse": { "ko": "순위표를 불러오지 못했습니다. 다시 새로고침하세요.", "en": "Could not load the ranking. Please refresh again.", "ja": "ランキングを読み込めませんでした。もう一度更新してください。" }
+}

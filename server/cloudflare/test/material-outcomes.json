@@ -1,0 +1,8 @@
+[
+ {"name":"expensive surviving blocks beat a higher block-health fraction","health":[0.2,0.9],"values":[[70000,1000],[30000,20000]],"gone":[false,false],"seconds":600,"score":1,"kind":"judgment"},
+ {"name":"unused supplies reverse the vehicle-only winner","health":[0.8,0.5],"values":[[10000,30000],[30000,5000]],"gone":[false,false],"seconds":600,"score":1,"kind":"judgment"},
+ {"name":"equal totals draw despite different compositions and health","health":[0.1,0.9],"values":[[20000,10000],[15000,15000]],"gone":[false,false],"seconds":600,"score":0.5,"kind":"timeout-draw"},
+ {"name":"one thousandth lead wins","health":[0.9,0.1],"values":[[10000,1000],[10000,1000.001]],"gone":[false,false],"seconds":600,"score":0,"kind":"judgment"},
+ {"name":"elimination overrides warehouse reserves","health":[0,0.1],"values":[[0,99999],[1000,0]],"gone":[true,false],"seconds":12,"score":0,"kind":"elimination"},
+ {"name":"mutual elimination draws even with reserves","health":[0,0],"values":[[0,99999],[0,2]],"gone":[true,true],"seconds":12,"score":0.5,"kind":"mutual-elimination"}
+]

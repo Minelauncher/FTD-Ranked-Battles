@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk">
+ <PropertyGroup><TargetFramework>netstandard2.1</TargetFramework><LangVersion>latest</LangVersion><PlatformTarget>AnyCPU</PlatformTarget></PropertyGroup>
+ <ItemGroup>
+  <EmbeddedResource Include="../assets/languages.json" LogicalName="FtdRank.Languages.json" />
+  <EmbeddedResource Include="../assets/flags/*.png" LogicalName="FtdRank.Flags.%(Filename).png" />
+  <Reference Include="0Harmony" HintPath="$(HarmonyPath)" Private="false" />
+  <Reference Include="Ftd" HintPath="$(GameManaged)/Ftd.dll" Private="false" />
+  <Reference Include="Core" HintPath="$(GameManaged)/Core.dll" Private="false" />
+  <Reference Include="Common" HintPath="$(GameManaged)/Common.dll" Private="false" />
+  <Reference Include="Shared" HintPath="$(GameManaged)/Shared.dll" Private="false" />
+  <Reference Include="Modding" HintPath="$(GameManaged)/Modding.dll" Private="false" />
+  <Reference Include="Steamworks" HintPath="$(GameManaged)/Steamworks.dll" Private="false" />
+  <Reference Include="Ui" HintPath="$(GameManaged)/Ui.dll" Private="false" />
+  <Reference Include="CamControl" HintPath="$(GameManaged)/CamControl.dll" Private="false" />
+  <Reference Include="Effects" HintPath="$(GameManaged)/Effects.dll" Private="false" />
+  <Reference Include="Localisation" HintPath="$(GameManaged)/Localisation.dll" Private="false" />
+  <Reference Include="Newtonsoft.Json" HintPath="$(GameManaged)/Newtonsoft.Json.dll" Private="false" />
+  <Reference Include="UnityEngine.CoreModule" HintPath="$(GameManaged)/UnityEngine.CoreModule.dll" Private="false" />
+  <Reference Include="UnityEngine.InputLegacyModule" HintPath="$(GameManaged)/UnityEngine.InputLegacyModule.dll" Private="false" />
+  <Reference Include="UnityEngine.IMGUIModule" HintPath="$(GameManaged)/UnityEngine.IMGUIModule.dll" Private="false" />
+  <Reference Include="UnityEngine.ImageConversionModule" HintPath="$(GameManaged)/UnityEngine.ImageConversionModule.dll" Private="false" />
+  <Reference Include="UnityEngine.TextRenderingModule" HintPath="$(GameManaged)/UnityEngine.TextRenderingModule.dll" Private="false" />
+  <Reference Include="UnityEngine.AudioModule" HintPath="$(GameManaged)/UnityEngine.AudioModule.dll" Private="false" />
+  <Reference Include="UnityEngine.PhysicsModule" HintPath="$(GameManaged)/UnityEngine.PhysicsModule.dll" Private="false" />
+ </ItemGroup>
+ <ItemGroup>
+  <EmbeddedResource Include="../assets/maps/neter.png" LogicalName="FtdRank.Maps.neter.png" />
+  <EmbeddedResource Include="../assets/maps/aote.png" LogicalName="FtdRank.Maps.aote.png" />
+ </ItemGroup>
+ <Target Name="ValidateGameReferences" BeforeTargets="ResolveReferences">
+  <Error Condition="!Exists('$(GameManaged)/Ftd.dll')" Text="Set GameManaged to this platform's FTD Managed directory (dotnet build -p:GameManaged=...)." />
+  <Error Condition="!Exists('$(HarmonyPath)')" Text="Set HarmonyPath to 0Harmony.dll." />
+ </Target>
+</Project>

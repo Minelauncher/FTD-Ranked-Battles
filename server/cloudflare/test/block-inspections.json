@@ -1,0 +1,13 @@
+[
+  {"name":"nested turrets and drones, including damaged blocks","document":{"ItemDictionary":{"1":"11111111-1111-1111-1111-111111111111","2":"AAAAAAAA-AAAA-AAAA-AAAA-AAAAAAAAAAAA","9":"99999999-9999-9999-9999-999999999999"},"Blueprint":{"BlockIds":[1,1],"SCs":[{"BlockIds":[2],"SCs":[{"BlockIds":[2,1],"AliveCount":0}]}]}},"counts":{"11111111-1111-1111-1111-111111111111":3,"aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa":2},"blockCount":5,"constructCount":3},
+  {"name":"unused dictionary entry is not a placed block","document":{"ItemDictionary":{"1":"11111111-1111-1111-1111-111111111111","2":"aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa"},"Blueprint":{"BlockIds":[1],"SCs":[]}},"counts":{"11111111-1111-1111-1111-111111111111":1},"blockCount":1,"constructCount":1},
+  {"name":"runtime IDs can be renumbered without changing block identity","document":{"ItemDictionary":{"998":"11111111-1111-1111-1111-111111111111"},"Blueprint":{"BlockIds":[998]}},"counts":{"11111111-1111-1111-1111-111111111111":1},"blockCount":1,"constructCount":1},
+  {"name":"missing referenced ID","document":{"ItemDictionary":{},"Blueprint":{"BlockIds":[1]}},"invalid":true},
+  {"name":"unknown nested child ID","document":{"ItemDictionary":{"1":"11111111-1111-1111-1111-111111111111"},"Blueprint":{"BlockIds":[1],"SCs":[{"BlockIds":[9]}]}},"invalid":true},
+  {"name":"string runtime ID","document":{"ItemDictionary":{"1":"11111111-1111-1111-1111-111111111111"},"Blueprint":{"BlockIds":["1"]}},"invalid":true},
+  {"name":"ambiguous case variant cannot bypass scan","document":{"ItemDictionary":{"1":"11111111-1111-1111-1111-111111111111"},"Blueprint":{"BlockIds":[1],"blockids":[9]}},"invalid":true},
+  {"name":"ambiguous dictionary key","document":{"ItemDictionary":{"01":"11111111-1111-1111-1111-111111111111"},"Blueprint":{"BlockIds":[1]}},"invalid":true},
+  {"name":"invalid GUID","document":{"ItemDictionary":{"1":"block"},"Blueprint":{"BlockIds":[1]}},"invalid":true},
+  {"name":"empty blueprint","document":{"ItemDictionary":{},"Blueprint":{"BlockIds":[]}},"invalid":true},
+  {"name":"malformed children","document":{"ItemDictionary":{"1":"11111111-1111-1111-1111-111111111111"},"Blueprint":{"BlockIds":[1],"SCs":[null]}},"invalid":true}
+]

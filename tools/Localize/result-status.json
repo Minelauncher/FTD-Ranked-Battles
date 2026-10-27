@@ -1,0 +1,21 @@
+{
+  "Result.SurrenderSaveFailed": {"ko":"항복 결과를 저장하지 못했습니다. 전투는 계속됩니다. 저장 공간을 확인하고 다시 항복해 주세요.","en":"Could not save the surrender. Battle continues. Check local storage and try surrendering again.","ja":"降参結果を保存できませんでした。戦闘は続行中です。保存先を確認して、再度降参してください。"},
+  "Result.InvalidReceipt": {"ko":"서버 결과를 확인하지 못했습니다. 다시 시도해 주세요.","en":"Could not verify the server result. Please retry.","ja":"サーバーの結果を確認できませんでした。再試行してください。"},
+  "Result.Sending": {"ko":"결과 전송 중","en":"Sending result","ja":"結果を送信中"},
+  "Result.SignIn": {"ko":"결과 확정에 로그인 필요","en":"Sign in to finalize result","ja":"結果確定にはログインが必要"},
+  "Result.Attention": {"ko":"결과 전송 확인 필요","en":"Result needs attention","ja":"結果の送信を確認してください"},
+  "Result.SaveWaiting": {"ko":"결과 저장 재시도 대기","en":"Retrying local result save","ja":"結果の保存を再試行待ち"},
+  "Result.CleanupWaiting": {"ko":"결과 확정됨 · 로컬 정리 대기","en":"Result confirmed · local cleanup pending","ja":"結果確定済み・ローカル整理待ち"},
+  "Result.SurrenderWaiting": {"ko":"항복 결과 전송 대기","en":"Surrender result pending","ja":"降参結果の送信待ち"},
+  "Result.Waiting": {"ko":"전투 결과 전송 대기","en":"Battle result pending","ja":"戦闘結果の送信待ち"},
+  "Result.SaveWarning": {"ko":"함대 잠김. 결과를 PC에 저장하지 못했습니다. 저장 공간을 확인하고 게임을 종료하지 마세요.","en":"Fleet locked. The result could not be saved locally. Check storage and keep the game open.","ja":"艦隊はロック中です。結果をPCに保存できません。保存先を確認し、ゲームを終了しないでください。"},
+  "Result.Locked": {"ko":"함대 잠김. 결과 확인과 로컬 정리가 완료되면 자동으로 해제됩니다.","en":"Fleet locked until result confirmation and local cleanup finish. It will unlock automatically.","ja":"結果の確認とローカル整理が完了するまで艦隊はロックされます。完了後、自動で解除されます。"},
+  "Result.RetryIn": {"ko":"{0}초 후 자동 재시도","en":"Automatic retry in {0}s","ja":"{0}秒後に自動再試行"},
+  "Result.AccountHint": {"ko":"이 경기를 진행한 계정으로 로그인하면 저장된 결과를 다시 전송합니다.","en":"Sign in with the account that played this match to resend the saved result.","ja":"この試合を行ったアカウントでログインすると、保存済みの結果を再送します。"},
+  "Result.RetryNow": {"ko":"지금 다시 시도","en":"Retry now","ja":"今すぐ再試行"},
+  "Match.Ready": {"ko":"매칭 완료 · 전투 시작 대기","en":"Opponent found · ready to battle","ja":"対戦相手決定・戦闘開始待ち"},
+  "Match.Preparing": {"ko":"전투 준비 중","en":"Preparing battle","ja":"戦闘準備中"},
+  "Match.Running": {"ko":"전투 진행 중","en":"Battle in progress","ja":"戦闘中"},
+  "Match.Locked": {"ko":"경기가 진행 중이므로 함대가 잠겨 있습니다. 전투를 완료하거나 항복하면 해제됩니다.","en":"Fleet locked by an active match. Complete the battle or surrender to unlock it.","ja":"試合中のため艦隊はロックされています。戦闘を完了するか降参すると解除されます。"},
+  "Match.Open": {"ko":"진행 중인 경기 보기","en":"Open active match","ja":"進行中の試合を開く"}
+}

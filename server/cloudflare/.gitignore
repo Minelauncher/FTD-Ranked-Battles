@@ -1,0 +1,12 @@
+node_modules/
+.wrangler/
+dist/
+coverage/
+wrangler.production.json
+.dev.vars*
+.env*
+backups/
+legacy-export/
+test-output/
+__pycache__/
+*.pyc

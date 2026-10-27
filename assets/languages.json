@@ -1,0 +1,2374 @@
+{
+  "Account.Profile": {"ko":"프로필","en":"Profile","ja":"プロフィール"},
+  "Account.Security": {"ko":"계정 보안","en":"Account security","ja":"アカウントのセキュリティ"},
+  "Account.Verified": {"ko":"인증됨","en":"Verified","ja":"認証済み"},
+  "Account.AddEmailHint": {"ko":"이메일을 연결하면 아이디 찾기와 비밀번호 복구에 사용할 수 있습니다.","en":"Link an email to find your username or recover your password.","ja":"メールを連携すると、ユーザーIDの確認やパスワードの復旧に利用できます。"},
+  "Registration.EmailOptional": {"ko":"복구 이메일 (선택)","en":"Recovery email (optional)","ja":"復旧用メールアドレス（任意）"},
+  "Registration.EmailHelp": {"ko":"입력하면 가입 후 인증번호를 보냅니다. 비워두고 나중에 연결할 수도 있습니다.","en":"If provided, a verification code is sent after signup. You can leave this blank and link an email later.","ja":"入力すると登録後に認証コードを送信します。空欄のまま登録し、後で連携することもできます。"},
+  "Registration.Sending": {"ko":"가입 완료 · 이메일 인증번호를 보내는 중…","en":"Account created · Sending email verification code…","ja":"登録完了・メール認証コードを送信中…"},
+  "Registration.EmailSent": {"ko":"가입되었습니다. 이메일로 보낸 8자리 인증번호를 10분 안에 입력하세요. 인증 후 복구 이메일이 연결됩니다.","en":"Account created. Enter the 8-digit code sent to your email within 10 minutes to link your recovery email.","ja":"登録が完了しました。10分以内にメールの8桁のコードを入力すると、復旧用メールが連携されます。"},
+  "Registration.EmailFailed": {"ko":"가입은 완료되었지만 이메일 인증을 시작하지 못했습니다. 현재 비밀번호를 입력하고 다시 보내거나 나중에 연결하세요.","en":"Account created, but email verification could not start. Enter your current password to retry, or link an email later.","ja":"登録は完了しましたが、メール認証を開始できませんでした。現在のパスワードを入力して再送するか、後で連携してください。"},
+  "Recovery.EditOrResend": {"ko":"이메일 변경·인증번호 다시 요청","en":"Change email or request a new code","ja":"メール変更・コードを再要求"},
+  "남은 기체 비용과 보급 자원, 합계가 필요합니다.": {"ko":"남은 기체 비용과 보급 자원, 합계가 필요합니다.","en":"Remaining vehicle value, supplies and consistent totals are required.","ja":"残存機体コスト、補給資源、整合する合計が必要です。"},
+  "발급된 경기 판정 방식과 결과가 다릅니다.": {"ko":"발급된 경기 판정 방식과 결과가 다릅니다.","en":"The result does not match this battle's judging policy.","ja":"結果がこの試合の判定方式と一致しません。"},
+  "Outcome.InvalidMaterials": {"ko":"남은 기체·보급 자원을 계산할 수 없습니다.","en":"Unable to calculate remaining vehicle and supply materials.","ja":"残存機体・補給資源を計算できません。"},
+  "Outcome.MaterialSummary": {"ko":"남은 자원 {0:N3} : {1:N3}\n내 기체 {2:N3} + 보급 {3:N3} / 상대 기체 {4:N3} + 보급 {5:N3}","en":"Remaining materials {0:N3} : {1:N3}\nYour vehicles {2:N3} + supplies {3:N3} / Opponent vehicles {4:N3} + supplies {5:N3}","ja":"残存資源 {0:N3} : {1:N3}\n自軍機体 {2:N3} + 補給 {3:N3} / 敵軍機体 {4:N3} + 補給 {5:N3}"},
+  "Outcome.MaterialRule": {"ko":"시간 종료: 남은 기체 비용 + 보급 자원이 높은 쪽 승리","en":"Time limit: higher surviving vehicle cost + remaining supplies wins","ja":"時間切れ：残存機体コスト＋補給資源が多い側の勝利"},
+  "Recovery.FindAccount": {"ko":"계정 찾기","en":"Find account","ja":"アカウントを探す"},
+  "Recovery.EmailSettings": {"ko":"복구 이메일 설정·변경","en":"Set or change recovery email","ja":"復旧用メールの設定・変更"},
+  "Recovery.Email": {"ko":"복구 이메일","en":"Recovery email","ja":"復旧用メールアドレス"},
+  "Recovery.EmailHelp": {"ko":"미리 연결하고 인증한 이메일로 계정을 찾을 수 있습니다.","en":"Recover your account using an email you linked and verified earlier.","ja":"事前に連携・認証したメールアドレスでアカウントを復旧できます。"},
+  "Recovery.NotLinked": {"ko":"등록되지 않음","en":"Not linked","ja":"未登録"},
+  "Recovery.SendCode": {"ko":"인증번호 보내기","en":"Send verification code","ja":"認証コードを送信"},
+  "Recovery.Code": {"ko":"8자리 인증번호","en":"8-digit verification code","ja":"8桁の認証コード"},
+  "Recovery.Verify": {"ko":"인증번호 확인","en":"Verify code","ja":"コードを確認"},
+  "Recovery.Back": {"ko":"돌아가기","en":"Back","ja":"戻る"},
+  "Recovery.ResetPassword": {"ko":"이 계정의 임시 비밀번호 받기","en":"Email a temporary password for this account","ja":"このアカウントの仮パスワードを受け取る"},
+  "Recovery.TemporaryHelp": {"ko":"연결된 이메일로 발송됩니다. 로그인 후 새 비밀번호를 설정하세요.","en":"Sent to the linked email. Choose a new password after signing in.","ja":"連携済みメールに送信します。ログイン後、新しいパスワードを設定してください。"},
+  "Recovery.Working": {"ko":"계정 인증을 처리하는 중…","en":"Processing account verification…","ja":"アカウント認証を処理中…"},
+  "Recovery.CodeSent": {"ko":"연결된 계정이 있으면 인증번호가 발송됩니다. 10분 안에 입력하세요. 이메일 설정 중이라면 새 주소를 확인하세요.","en":"If an account is linked, a code has been sent. Enter it within 10 minutes. When setting an email, check the new address.","ja":"連携済みのアカウントがあればコードを送信します。10分以内に入力してください。メール設定中の場合は新しいアドレスを確認してください。"},
+  "Recovery.EmailSaved": {"ko":"복구 이메일 인증·저장이 완료되었습니다.","en":"Recovery email verified and saved.","ja":"復旧用メールの認証・保存が完了しました。"},
+  "Recovery.AccountsFound": {"ko":"연결된 아이디입니다. 로그인하거나 5분 안에 원하는 계정의 비밀번호를 초기화하세요.","en":"Linked usernames are shown below. Sign in, or reset a selected account within 5 minutes.","ja":"連携済みのユーザーIDです。ログインするか、5分以内に対象アカウントのパスワードをリセットしてください。"},
+  "Recovery.PasswordSent": {"ko":"연결된 이메일로 임시 비밀번호를 보냈습니다. 24시간 안에 로그인하고 새 비밀번호를 설정하세요.","en":"A temporary password was sent to your linked email. Sign in within 24 hours and choose a new password.","ja":"連携済みメールに仮パスワードを送信しました。24時間以内にログインし、新しいパスワードを設定してください。"},
+  "Recovery.ChangeRequired": {"ko":"임시 비밀번호로 로그인했습니다. 계정 탭에서 새 비밀번호를 설정하세요.","en":"You signed in with a temporary password. Set a new password in Account before continuing.","ja":"仮パスワードでログインしました。続ける前にアカウントタブで新しいパスワードを設定してください。"},
+  "Recovery.Unavailable": {"ko":"이메일 복구 서비스가 아직 연결되지 않았습니다. 운영자에게 문의하세요.","en":"Email recovery is not connected yet. Contact the administrator.","ja":"メール復旧サービスはまだ接続されていません。管理者にお問い合わせください。"},
+  "Recovery.DailyLimit": {"ko":"무료 메일 발송 한도에 도달했습니다. 나중에 다시 시도하세요.","en":"The free email limit has been reached. Try again later.","ja":"無料メール送信の上限に達しました。後でもう一度お試しください。"},
+  "Recovery.SendFailed": {"ko":"메일 발송을 확인하지 못했습니다. 비밀번호는 변경하지 않았습니다. 잠시 후 다시 요청하세요.","en":"Email delivery could not be confirmed. Your password was not changed. Request a new code later.","ja":"メール送信を確認できませんでした。パスワードは変更していません。後でコードを再度要求してください。"},
+  "Recovery.InvalidEmail": {"ko":"올바른 이메일 주소를 입력하세요.","en":"Enter a valid email address.","ja":"有効なメールアドレスを入力してください。"},
+  "Recovery.InvalidRequest": {"ko":"계정 복구 요청이 올바르지 않습니다.","en":"Invalid account recovery request.","ja":"アカウント復旧リクエストが無効です。"},
+  "Recovery.InvalidCode": {"ko":"인증번호가 틀렸거나 만료되었습니다. 5회 실패하면 새 번호가 필요합니다.","en":"The verification code is incorrect or expired. After five attempts, request a new code.","ja":"認証コードが正しくないか期限切れです。5回失敗した場合は新しいコードを要求してください。"},
+  "Recovery.Wait": {"ko":"메일은 1분에 한 번 요청할 수 있습니다.","en":"Wait one minute before requesting another email.","ja":"次のメールを要求するまで1分お待ちください。"},
+  "Recovery.Stale": {"ko":"계정 정보가 바뀌었거나 이미 처리한 요청입니다. 계정 찾기를 다시 시작하세요.","en":"Account details changed or this request was already used. Start account recovery again.","ja":"アカウント情報が変更されたか、処理済みのリクエストです。復旧を最初からやり直してください。"},
+  "Recovery.ExpiredPassword": {"ko":"임시 비밀번호가 만료되었습니다. 계정 찾기를 다시 진행하세요.","en":"The temporary password has expired. Use Find account again.","ja":"仮パスワードの期限が切れました。アカウント復旧をやり直してください。"},
+  "Recovery.DifferentPassword": {"ko":"임시 비밀번호와 다른 새 비밀번호를 설정하세요.","en":"Choose a new password different from the temporary password.","ja":"仮パスワードと異なる新しいパスワードを設定してください。"},
+  "저장된 경기의 계정으로 로그인하세요.": {
+    "ko": "저장된 경기의 계정으로 로그인하세요.",
+    "en": "Sign in to the account that started the saved match.",
+    "ja": "保存された試合を開始したアカウントでログインしてください。"
+  },
+  "회원가입을 서버에 등록하는 중…": {
+    "ko": "회원가입을 서버에 등록하는 중…",
+    "en": "Creating account…",
+    "ja": "アカウントを作成中…"
+  },
+  "계정 정보를 확인하는 중…": {
+    "ko": "계정 정보를 확인하는 중…",
+    "en": "Checking account…",
+    "ja": "アカウントを確認中…"
+  },
+  "저장된 경기와 같은 계정으로 로그인하세요.": {
+    "ko": "저장된 경기와 같은 계정으로 로그인하세요.",
+    "en": "Sign in to the account used for the saved match.",
+    "ja": "保存された試合と同じアカウントでログインしてください。"
+  },
+  "로그아웃 중…": {
+    "ko": "로그아웃 중…",
+    "en": "Signing out…",
+    "ja": "ログアウト中…"
+  },
+  "로그아웃했습니다.": {
+    "ko": "로그아웃했습니다.",
+    "en": "Signed out.",
+    "ja": "ログアウトしました。"
+  },
+  "아이디: 8~32자, 영문·숫자 및 _ . - / Username: 8–32 characters.": {
+    "ko": "아이디: 8~32자, 영문·숫자 및 _ . -",
+    "en": "Username: 8–32 characters; letters, digits and _ . -",
+    "ja": "ユーザーID：8～32文字、英数字と _ . -"
+  },
+  "비밀번호: 8~32자 / Password: 8–32 characters.": {
+    "ko": "비밀번호: 8~32자",
+    "en": "Password: 8–32 characters.",
+    "ja": "パスワード：8～32文字。"
+  },
+  "닉네임: 2~24자, 한글·영문·숫자·공백 및 _ . - / Nickname: 2–24 characters.": {
+    "ko": "닉네임: 2~24자, 한글·영문·숫자·공백 및 _ . -",
+    "en": "Nickname: 2–24 characters; letters, digits, spaces and _ . -",
+    "ja": "ニックネーム：2～24文字、文字・数字・空白と _ . -"
+  },
+  "비밀번호가 서로 다릅니다. / Passwords do not match.": {
+    "ko": "비밀번호가 서로 다릅니다.",
+    "en": "Passwords do not match.",
+    "ja": "パスワードが一致しません。"
+  },
+  "관전 / Spectator": {
+    "ko": "관전",
+    "en": "Spectator",
+    "ja": "観戦"
+  },
+  "랭크전 관전 / Spectator": {
+    "ko": "랭크전 관전",
+    "en": "Ranked spectator",
+    "ja": "ランク戦の観戦"
+  },
+  "시점·기체 선택 / Camera and vehicles": {
+    "ko": "시점·기체 선택",
+    "en": "Camera and vehicles",
+    "ja": "カメラと機体"
+  },
+  "시점 전환 / Switch camera": {
+    "ko": "시점 전환",
+    "en": "Switch camera",
+    "ja": "カメラ切替"
+  },
+  "메뉴를 열어도 전투는 계속됩니다. / Battle continues while this menu is open.": {
+    "ko": "메뉴를 열어도 전투는 계속됩니다.",
+    "en": "Battle continues while this menu is open.",
+    "ja": "メニューを開いても戦闘は続きます。"
+  },
+  "전투로 복귀 / Resume": {
+    "ko": "전투로 복귀",
+    "en": "Resume",
+    "ja": "戦闘に戻る"
+  },
+  "창 닫기 / Close": {
+    "ko": "창 닫기",
+    "en": "Close",
+    "ja": "閉じる"
+  },
+  "전체 보기 / Overview": {
+    "ko": "전체 보기",
+    "en": "Overview",
+    "ja": "全体表示"
+  },
+  "자유 시점 / Free camera": {
+    "ko": "자유 시점",
+    "en": "Free camera",
+    "ja": "自由カメラ"
+  },
+  "위에서 보기 / Top view": {
+    "ko": "위에서 보기",
+    "en": "Top view",
+    "ja": "上から見る"
+  },
+  "우클릭 드래그: 회전 · 휠: 거리\nRMB drag: rotate · Wheel: distance\nF6 자유 / Free · F7 이전 / Previous · F8 다음 / Next · F9 위 / Top": {
+    "ko": "게임 기본 카메라로 궤도 회전·줌·기체 기준 이동을 조절합니다.\nF6 자유 · F7 이전 · F8 다음 · F9 위",
+    "en": "Use the game's camera controls for orbit, zoom and relative movement.\nF6 Free · F7 Previous · F8 Next · F9 Top",
+    "ja": "ゲーム標準のカメラ操作で旋回・ズーム・相対移動できます。\nF6 自由 · F7 前の機体 · F8 次の機体 · F9 上から"
+  },
+  "내 편대 / Yours · ": {
+    "ko": "내 편대 · ",
+    "en": "Yours · ",
+    "ja": "自分 · "
+  },
+  "상대 / Opponent · ": {
+    "ko": "상대 · ",
+    "en": "Opponent · ",
+    "ja": "相手 · "
+  },
+  "기체 선택 / Select vehicle": {
+    "ko": "기체 선택",
+    "en": "Select vehicle",
+    "ja": "機体を選択"
+  },
+  " · 파괴 / Lost": {
+    "ko": " · 파괴",
+    "en": " · Lost",
+    "ja": " · 撃破"
+  },
+  "기체 추적 / Follow vehicle": {
+    "ko": "기체 추적",
+    "en": "Follow vehicle",
+    "ja": "機体を追跡"
+  },
+  "설정 / Options": {
+    "ko": "설정",
+    "en": "Options",
+    "ja": "設定"
+  },
+  "화면·소리·입력 / Display, sound and controls": {
+    "ko": "화면·소리·입력",
+    "en": "Display, sound and controls",
+    "ja": "画面・音声・操作"
+  },
+  "랭크전 기록 / Ranked results": {
+    "ko": "랭크전 기록",
+    "en": "Ranked results",
+    "ja": "ランク戦の記録"
+  },
+  "함대·전적 / Fleet and results": {
+    "ko": "함대·전적",
+    "en": "Fleet and results",
+    "ja": "艦隊と戦績"
+  },
+  "항복 / Surrender": {
+    "ko": "항복",
+    "en": "Surrender",
+    "ja": "降参"
+  },
+  "확인 후 패배 처리 / Confirm to concede": {
+    "ko": "확인 후 패배 처리",
+    "en": "Confirm to concede",
+    "ja": "確認後に敗北として記録"
+  },
+  "메인 메뉴 / Main menu": {
+    "ko": "메인 메뉴",
+    "en": "Main menu",
+    "ja": "メインメニュー"
+  },
+  "메뉴로 복귀 / Return": {
+    "ko": "메뉴로 복귀",
+    "en": "Return",
+    "ja": "戻る"
+  },
+  "현재 화면 전환이 끝난 뒤 전투를 시작하세요.": {
+    "ko": "현재 화면 전환이 끝난 뒤 전투를 시작하세요.",
+    "en": "Wait for the current scene transition to finish.",
+    "ja": "画面の切替が完了してから開始してください。"
+  },
+  "이전 형식의 매칭입니다. 항복한 뒤 대회에서 다시 매칭하세요.": {
+    "ko": "이전 형식의 매칭입니다. 항복한 뒤 대회에서 다시 매칭하세요.",
+    "en": "This match uses an old format. Surrender and find a new match.",
+    "ja": "古い形式の試合です。降参して再度マッチングしてください。"
+  },
+  " 전장을 준비하는 중…": {
+    "ko": " · 전장을 준비하는 중…",
+    "en": " · Preparing battlefield…",
+    "ja": " · 戦場を準備中…"
+  },
+  "함대 BP를 다시 불러오세요.": {
+    "ko": "함대 BP를 다시 불러오세요.",
+    "en": "Download the fleet blueprints again.",
+    "ja": "艦隊のBPを再取得してください。"
+  },
+  "기체 / Vehicle": {
+    "ko": "기체",
+    "en": "Vehicle",
+    "ja": "機体"
+  },
+  "현재 게임에서 계산한 기체 비용이 제출 당시와 다릅니다: ": {
+    "ko": "현재 게임에서 계산한 기체 비용이 제출 당시와 다릅니다: ",
+    "en": "Vehicle cost differs from the submitted value: ",
+    "ja": "現在の機体コストが提出時と異なります："
+  },
+  "함대의 소환비와 보급 자원이 대회 예산과 일치하지 않습니다.": {
+    "ko": "함대의 소환비와 보급 자원이 대회 예산과 일치하지 않습니다.",
+    "en": "Fleet spawn cost and supplies do not match the event budget.",
+    "ja": "機体コストと補給資源が大会の予算に一致しません。"
+  },
+  "현재 설치된 월드의 크기가 대회 좌표와 맞지 않습니다.": {
+    "ko": "현재 설치된 월드의 크기가 대회 좌표와 맞지 않습니다.",
+    "en": "Event coordinates do not fit the installed world.",
+    "ja": "大会の座標がインストール済みのワールド範囲外です。"
+  },
+  "기체 BP를 불러오지 못했습니다.": {
+    "ko": "기체 BP를 불러오지 못했습니다.",
+    "en": "Could not load the vehicle blueprint.",
+    "ja": "機体のBPを読み込めませんでした。"
+  },
+  "기체 배치가 맵 경계를 벗어납니다. 대회 좌표나 진형을 수정하세요.": {
+    "ko": "기체 배치가 맵 경계를 벗어납니다. 대회 좌표나 진형을 수정하세요.",
+    "en": "Formation is outside the map. Adjust event coordinates or formation.",
+    "ja": "配置がマップ範囲外です。大会の座標または陣形を修正してください。"
+  },
+  "전장 준비 시간이 초과되었습니다. 다시 시도하세요.": {
+    "ko": "전장 준비 시간이 초과되었습니다. 다시 시도하세요.",
+    "en": "Battlefield preparation timed out. Try again.",
+    "ja": "戦場の準備がタイムアウトしました。再試行してください。"
+  },
+  "기체 생성에 실패했습니다. 점수는 갱신하지 않았습니다.": {
+    "ko": "기체 생성에 실패했습니다. 점수는 갱신하지 않았습니다.",
+    "en": "Vehicle spawn failed. Ratings were not changed.",
+    "ja": "機体を生成できませんでした。レーティングは変更されていません。"
+  },
+  "전투 관전 중": {
+    "ko": "전투 관전 중",
+    "en": "Watching battle",
+    "ja": "戦闘を観戦中"
+  },
+  "전투가 중단되었습니다. 기한 안에 같은 매칭을 다시 시작하세요. 항복하거나 기한이 지나면 패배합니다.": {
+    "ko": "전투가 중단되었습니다. 기한 안에 같은 매칭을 다시 시작하세요. 항복하거나 기한이 지나면 패배합니다.",
+    "en": "Battle interrupted. Restart this match before its deadline. Surrender or expiry counts as a loss.",
+    "ja": "戦闘が中断されました。期限内に同じ試合を再開してください。降参または期限切れは敗北になります。"
+  },
+  "전장 지형 / Terrain": {
+    "ko": "전장 지형",
+    "en": "Terrain",
+    "ja": "地形"
+  },
+  "전장 중심과 주변 지형 / Battlefield centre and nearby terrain": {
+    "ko": "전장 중심과 주변 지형",
+    "en": "Battlefield centre and nearby terrain",
+    "ja": "戦場の中心と周辺地形"
+  },
+  "지도를 불러오지 못했습니다. / Map unavailable": {
+    "ko": "지도를 불러오지 못했습니다.",
+    "en": "Map unavailable",
+    "ja": "マップを読み込めません"
+  },
+  "전체 지도 / World · N ↑": {
+    "ko": "전체 지도 · 북 ↑",
+    "en": "World · N ↑",
+    "ja": "全体マップ · 北 ↑"
+  },
+  "전장 주변 / Battlefield · 8×": {
+    "ko": "전장 주변 · 8배",
+    "en": "Battlefield · 8×",
+    "ja": "戦場周辺 · 8倍"
+  },
+  "+ 전장 중심 / Centre · 파랑: 물 / Blue: water · 초록·갈색: 육지 / Green/brown: land": {
+    "ko": "+ 전장 중심 · 파랑: 물 · 초록·갈색: 육지",
+    "en": "+ Centre · Blue: water · Green/brown: land",
+    "ja": "+ 戦場中心 · 青：水域 · 緑・茶：陸地"
+  },
+  "전장 규칙이 없습니다.": {
+    "ko": "전장 규칙이 없습니다.",
+    "en": "Battlefield rules are missing.",
+    "ja": "戦場のルールがありません。"
+  },
+  "지원하지 않는 전장입니다. 네터 또는 AOTE가 필요합니다.": {
+    "ko": "지원하지 않는 전장입니다. 네터 또는 AOTE가 필요합니다.",
+    "en": "Unsupported world. Neter or AOTE is required.",
+    "ja": "未対応のワールドです。NeterまたはAOTEが必要です。"
+  },
+  "네터 / Neter": {
+    "ko": "네터",
+    "en": "Neter",
+    "ja": "Neter"
+  },
+  "의 전장 좌표 범위는 동·북 0~": {
+    "ko": "의 전장 좌표 범위는 동·북 0~",
+    "en": " coordinates must be between 0 and ",
+    "ja": "の東・北座標の範囲は0～"
+  },
+  "칸입니다.": {
+    "ko": "칸입니다.",
+    "en": " sectors.",
+    "ja": "区画です。"
+  },
+  "전장 좌표가 지도 범위를 벗어납니다.": {
+    "ko": "전장 좌표가 지도 범위를 벗어납니다.",
+    "en": "Battlefield coordinates are outside the map.",
+    "ja": "戦場の座標がマップ範囲外です。"
+  },
+  "지원하지 않는 경기 판정 방식입니다. 모드를 업데이트하세요.": {
+    "ko": "지원하지 않는 경기 판정 방식입니다. 모드를 업데이트하세요.",
+    "en": "Unsupported result policy. Update the mod.",
+    "ja": "未対応の判定方式です。MODを更新してください。"
+  },
+  "편대 체력비를 계산할 수 없습니다.": {
+    "ko": "편대 체력비를 계산할 수 없습니다.",
+    "en": "Could not calculate fleet health.",
+    "ja": "艦隊の耐久率を計算できません。"
+  },
+  "전투 시간이 올바르지 않습니다.": {
+    "ko": "전투 시간이 올바르지 않습니다.",
+    "en": "Invalid battle duration.",
+    "ja": "戦闘時間が正しくありません。"
+  },
+  "아직 종료되지 않은 전투입니다.": {
+    "ko": "아직 종료되지 않은 전투입니다.",
+    "en": "The battle has not ended yet.",
+    "ja": "戦闘はまだ終了していません。"
+  },
+  "항복패": {
+    "ko": "항복패",
+    "en": "Surrender · Loss",
+    "ja": "降参・敗北"
+  },
+  "결과 미제출 · 패배": {
+    "ko": "결과 미제출 · 패배",
+    "en": "No result submitted · Loss",
+    "ja": "結果未提出・敗北"
+  },
+  "상대 항복 · 승리": {
+    "ko": "상대 항복 · 승리",
+    "en": "Opponent surrendered · Win",
+    "ja": "相手が降参・勝利"
+  },
+  "상대 미제출 · 승리": {
+    "ko": "상대 미제출 · 승리",
+    "en": "Opponent timed out · Win",
+    "ja": "相手の期限切れ・勝利"
+  },
+  "판정승": {
+    "ko": "판정승",
+    "en": "Judgment · Win",
+    "ja": "判定勝ち"
+  },
+  "판정패": {
+    "ko": "판정패",
+    "en": "Judgment · Loss",
+    "ja": "判定負け"
+  },
+  "전멸승": {
+    "ko": "전멸승",
+    "en": "Elimination · Win",
+    "ja": "全滅勝ち"
+  },
+  "전멸패": {
+    "ko": "전멸패",
+    "en": "Elimination · Loss",
+    "ja": "全滅負け"
+  },
+  "동시 전멸 · 무승부": {
+    "ko": "동시 전멸 · 무승부",
+    "en": "Mutual elimination · Draw",
+    "ja": "同時全滅・引き分け"
+  },
+  "시간 종료 · 무승부": {
+    "ko": "시간 종료 · 무승부",
+    "en": "Time limit · Draw",
+    "ja": "時間切れ・引き分け"
+  },
+  "승리": {
+    "ko": "승리",
+    "en": "Win",
+    "ja": "勝利"
+  },
+  "패배": {
+    "ko": "패배",
+    "en": "Loss",
+    "ja": "敗北"
+  },
+  "무승부": {
+    "ko": "무승부",
+    "en": "Draw",
+    "ja": "引き分け"
+  },
+  "종료 체력비 · 내 편대 ": {
+    "ko": "종료 체력비 · 내 편대 ",
+    "en": "Final health · Yours ",
+    "ja": "終了時の耐久率 · 自分 "
+  },
+  "% / 상대 ": {
+    "ko": "% / 상대 ",
+    "en": "% / Opponent ",
+    "ja": "% / 相手 "
+  },
+  "BP 블록 검사 실패: ": {
+    "ko": "BP 블록 검사 실패: ",
+    "en": "Blueprint block check failed: ",
+    "ja": "BPブロック検査失敗："
+  },
+  " 게임에서 다시 저장한 BP를 사용하세요.": {
+    "ko": " 게임에서 다시 저장한 BP를 사용하세요.",
+    "en": " Use a blueprint saved again in the game.",
+    "ja": " ゲームで保存し直したBPを使用してください。"
+  },
+  "모호한 필드가 있습니다.": {
+    "ko": "모호한 필드가 있습니다.",
+    "en": "Ambiguous fields found.",
+    "ja": "曖昧なフィールドがあります。"
+  },
+  "JSON 뒤에 추가 데이터가 있습니다.": {
+    "ko": "JSON 뒤에 추가 데이터가 있습니다.",
+    "en": "Extra data after JSON.",
+    "ja": "JSONの後に余分なデータがあります。"
+  },
+  "JSON을 읽을 수 없습니다.": {
+    "ko": "JSON을 읽을 수 없습니다.",
+    "en": "Could not read JSON.",
+    "ja": "JSONを読み込めません。"
+  },
+  "Blueprint / ItemDictionary가 없습니다.": {
+    "ko": "Blueprint",
+    "en": "Blueprint / ItemDictionary is missing.",
+    "ja": "Blueprint / ItemDictionaryがありません。"
+  },
+  "블록 식별 목록이 올바르지 않습니다.": {
+    "ko": "블록 식별 목록이 올바르지 않습니다.",
+    "en": "Invalid block dictionary.",
+    "ja": "ブロック識別一覧が不正です。"
+  },
+  "하위 BP 구조 또는 깊이가 지원 범위를 벗어났습니다.": {
+    "ko": "하위 BP 구조 또는 깊이가 지원 범위를 벗어났습니다.",
+    "en": "Subconstruct structure or depth is unsupported.",
+    "ja": "サブコンストラクトの構造または深さが未対応です。"
+  },
+  "BlockIds / SCs 구조가 올바르지 않습니다.": {
+    "ko": "BlockIds",
+    "en": "Invalid BlockIds / SCs structure.",
+    "ja": "BlockIds / SCsの構造が不正です。"
+  },
+  "블록 수가 검사 한도를 초과했습니다.": {
+    "ko": "블록 수가 검사 한도를 초과했습니다.",
+    "en": "Too many blocks to inspect.",
+    "ja": "ブロック数が検査上限を超えています。"
+  },
+  "식별할 수 없는 블록 번호가 있습니다.": {
+    "ko": "식별할 수 없는 블록 번호가 있습니다.",
+    "en": "Unrecognized block ID.",
+    "ja": "識別できないブロックIDがあります。"
+  },
+  "블록 종류가 검사 한도를 초과했습니다.": {
+    "ko": "블록 종류가 검사 한도를 초과했습니다.",
+    "en": "Too many block types to inspect.",
+    "ja": "ブロック種類数が検査上限を超えています。"
+  },
+  "하위 BP 구조가 올바르지 않습니다.": {
+    "ko": "하위 BP 구조가 올바르지 않습니다.",
+    "en": "Invalid subconstruct structure.",
+    "ja": "サブコンストラクトの構造が不正です。"
+  },
+  "배치된 블록이 없습니다.": {
+    "ko": "배치된 블록이 없습니다.",
+    "en": "No blocks placed.",
+    "ja": "配置されたブロックがありません。"
+  },
+  "금지 블록: ": {
+    "ko": "금지 블록: ",
+    "en": "Banned blocks: ",
+    "ja": "禁止ブロック："
+  },
+  "개": {
+    "ko": "개",
+    "en": " blocks",
+    "ja": "個"
+  },
+  "금지 블록 없음 / No banned blocks": {
+    "ko": "금지 블록 없음",
+    "en": "No banned blocks",
+    "ja": "禁止ブロックなし"
+  },
+  "금지 / Banned: ": {
+    "ko": "금지",
+    "en": "Banned: ",
+    "ja": "禁止："
+  },
+  "BP 다운로드 완료 / Download complete · ": {
+    "ko": "BP 다운로드 완료 · ",
+    "en": "Download complete · ",
+    "ja": "BP取得完了 · "
+  },
+  "BP 다운로드 / Download · 완료 / Done ": {
+    "ko": "BP 다운로드 · 완료 ",
+    "en": "Downloading BP · Done ",
+    "ja": "BP取得中 · 完了 "
+  },
+  " · 검증 / Verifying": {
+    "ko": " · 검증",
+    "en": " · Verifying",
+    "ja": " · 検証中"
+  },
+  "로그인하고 시작하세요. / Sign in to play.": {
+    "ko": "로그인하고 시작하세요.",
+    "en": "Sign in to play.",
+    "ja": "ログインして開始してください。"
+  },
+  "계정": {
+    "ko": "계정",
+    "en": "Account",
+    "ja": "アカウント"
+  },
+  "전투": {
+    "ko": "전투",
+    "en": "Battle",
+    "ja": "戦闘"
+  },
+  "대회": {
+    "ko": "대회",
+    "en": "Events",
+    "ja": "大会"
+  },
+  "연결 실패. 다시 시도하세요. / Connection failed. Retry.": {
+    "ko": "연결 실패. 다시 시도하세요.",
+    "en": "Connection failed. Try again.",
+    "ja": "接続に失敗しました。再試行してください。"
+  },
+  "로그인 또는 회원가입 / Sign in or register": {
+    "ko": "로그인 또는 회원가입",
+    "en": "Sign in or register",
+    "ja": "ログインまたは新規登録"
+  },
+  "서버에 연결 중…": {
+    "ko": "서버에 연결 중…",
+    "en": "Connecting to server…",
+    "ja": "サーバーに接続中…"
+  },
+  "FTD 랭크 서버 주소를 입력하세요.": {
+    "ko": "FTD 랭크 서버 주소를 입력하세요.",
+    "en": "Enter an FTD Ranked server address.",
+    "ja": "FTDランク戦サーバーのアドレスを入力してください。"
+  },
+  "양쪽 레이팅 정산을 지원하는 서버가 필요합니다.": {
+    "ko": "양쪽 레이팅 정산을 지원하는 서버가 필요합니다.",
+    "en": "A server supporting ratings for both participants is required.",
+    "ja": "両参加者のレーティング更新に対応したサーバーが必要です。"
+  },
+  "전적을 불러오는 중…": {
+    "ko": "전적을 불러오는 중…",
+    "en": "Loading results…",
+    "ja": "戦績を取得中…"
+  },
+  "순위를 불러오는 중…": {
+    "ko": "순위를 불러오는 중…",
+    "en": "Loading rankings…",
+    "ja": "ランキングを取得中…"
+  },
+  "대회 탭에서 참가할 대회를 선택하세요.": {
+    "ko": "대회 탭에서 참가할 대회를 선택하세요.",
+    "en": "Select an event in the Events tab.",
+    "ja": "大会タブで参加する大会を選択してください。"
+  },
+  "이 대회의 상대 함대를 찾는 중…": {
+    "ko": "이 대회의 상대 함대를 찾는 중…",
+    "en": "Finding an opponent…",
+    "ja": "対戦相手を検索中…"
+  },
+  "연결 중 / Connecting": {
+    "ko": "연결 중",
+    "en": "Connecting",
+    "ja": "接続中"
+  },
+  "경기 BP를 불러오는 중…": {
+    "ko": "경기 BP를 불러오는 중…",
+    "en": "Loading match blueprints…",
+    "ja": "試合のBPを取得中…"
+  },
+  "항복하시겠습니까?": {
+    "ko": "항복하시겠습니까?",
+    "en": "Surrender?",
+    "ja": "降参しますか？"
+  },
+  "이 경기는 내 패배와 상대 승리로 기록되고 양쪽 레이팅에 반영됩니다.": {
+    "ko": "이 경기는 내 패배와 상대 승리로 기록되고 양쪽 레이팅에 반영됩니다.",
+    "en": "This records your loss and your opponent's win, updating both ratings.",
+    "ja": "自分の敗北と相手の勝利を記録し、両者のレーティングに反映します。"
+  },
+  "항복 · 패배 처리": {
+    "ko": "항복 · 패배 처리",
+    "en": "Surrender · Accept loss",
+    "ja": "降参・敗北として記録"
+  },
+  "계속 진행": {
+    "ko": "계속 진행",
+    "en": "Continue",
+    "ja": "続行"
+  },
+  "이 결과를 기록한 서버와 계정에 연결하세요.": {
+    "ko": "이 결과를 기록한 서버와 계정에 연결하세요.",
+    "en": "Connect to the server and account that recorded this result.",
+    "ja": "この結果を記録したサーバーとアカウントに接続してください。"
+  },
+  "전투 결과를 반영하는 중…": {
+    "ko": "전투 결과를 반영하는 중…",
+    "en": "Submitting result…",
+    "ja": "結果を送信中…"
+  },
+  "랭크 서버": {
+    "ko": "랭크 서버",
+    "en": "Ranked server",
+    "ja": "ランク戦サーバー"
+  },
+  "사용할 서버의 주소를 입력하세요.": {
+    "ko": "사용할 서버의 주소를 입력하세요.",
+    "en": "Enter the server address.",
+    "ja": "サーバーのアドレスを入力してください。"
+  },
+  "서버 주소": {
+    "ko": "서버 주소",
+    "en": "Server address",
+    "ja": "サーバーアドレス"
+  },
+  "HTTPS 서버 주소를 입력하세요. HTTP는 로컬 시험용입니다.": {
+    "ko": "HTTPS 서버 주소를 입력하세요. HTTP는 로컬 시험용입니다.",
+    "en": "Use HTTPS. HTTP is allowed only for local testing.",
+    "ja": "HTTPSを使用してください。HTTPはローカルテスト専用です。"
+  },
+  "서버에 연결하세요.": {
+    "ko": "서버에 연결하세요.",
+    "en": "Connect to a server.",
+    "ja": "サーバーに接続してください。"
+  },
+  "참가자 이름": {
+    "ko": "참가자 이름",
+    "en": "Participant name",
+    "ja": "参加者名"
+  },
+  "처음 연결할 때 이 이름으로 계정을 만듭니다.": {
+    "ko": "처음 연결할 때 이 이름으로 계정을 만듭니다.",
+    "en": "This name is used when creating an account on first connection.",
+    "ja": "初回接続時にこの名前でアカウントを作成します。"
+  },
+  "이름": {
+    "ko": "이름",
+    "en": "Name",
+    "ja": "名前"
+  },
+  "대회 목록을 불러오는 중…": {
+    "ko": "대회 목록을 불러오는 중…",
+    "en": "Loading events…",
+    "ja": "大会一覧を取得中…"
+  },
+  "대회와 제출 함대를 불러오는 중…": {
+    "ko": "대회와 제출 함대를 불러오는 중…",
+    "en": "Loading event and submitted fleet…",
+    "ja": "大会と提出済み艦隊を取得中…"
+  },
+  "편집안 읽기 실패 · 제출본 복원 / Draft unreadable; submission restored": {
+    "ko": "편집안 읽기 실패 · 제출본 복원",
+    "en": "Draft unreadable; submission restored",
+    "ja": "編集案を読み込めないため、提出済みの艦隊を復元しました"
+  },
+  "규칙 변경: 함대 재제출 필요 / Rules changed: resubmit fleet": {
+    "ko": "규칙 변경: 함대 재제출 필요",
+    "en": "Rules changed: resubmit fleet",
+    "ja": "ルール変更：艦隊を再提出してください"
+  },
+  "함대에 기체 추가": {
+    "ko": "함대에 기체 추가",
+    "en": "Add blueprint to fleet",
+    "ja": "艦隊に機体を追加"
+  },
+  "기체 배치 수 제한에 도달했습니다.": {
+    "ko": "기체 배치 수 제한에 도달했습니다.",
+    "en": "Vehicle limit reached.",
+    "ja": "機体数の上限に達しました。"
+  },
+  "BP를 읽을 수 없습니다.": {
+    "ko": "BP를 읽을 수 없습니다.",
+    "en": "Could not read blueprint.",
+    "ja": "BPを読み込めません。"
+  },
+  "기체 비용을 계산하지 못했습니다.": {
+    "ko": "기체 비용을 계산하지 못했습니다.",
+    "en": "Could not calculate vehicle cost.",
+    "ja": "機体コストを計算できません。"
+  },
+  "수량은 0 이상의 정수로 입력하세요.": {
+    "ko": "수량은 0 이상의 정수로 입력하세요.",
+    "en": "Enter a whole number of zero or more.",
+    "ja": "0以上の整数を入力してください。"
+  },
+  "같은 BP 전체 교체": {
+    "ko": "같은 BP 전체 교체",
+    "en": "Replace all copies of this blueprint",
+    "ja": "同じBPをすべて交換"
+  },
+  "선택한 한 척의 BP 교체": {
+    "ko": "선택한 한 척의 BP 교체",
+    "en": "Replace selected vehicle blueprint",
+    "ja": "選択した機体のBPを交換"
+  },
+  "배치 수 제한에 도달했습니다.": {
+    "ko": "배치 수 제한에 도달했습니다.",
+    "en": "Deployment limit reached.",
+    "ja": "配置数の上限に達しました。"
+  },
+  "이 간격은 대회 배치 영역을 벗어납니다.": {
+    "ko": "이 간격은 대회 배치 영역을 벗어납니다.",
+    "en": "This spacing exceeds the formation area.",
+    "ja": "この間隔では配置範囲を超えます。"
+  },
+  "보관된 BP가 변경되었습니다. 기체를 다시 추가하세요.": {
+    "ko": "보관된 BP가 변경되었습니다. 기체를 다시 추가하세요.",
+    "en": "Stored blueprint changed. Add the vehicle again.",
+    "ja": "保存されたBPが変更されています。機体を追加し直してください。"
+  },
+  "기체 비용이 변경되었습니다. 해당 기체를 다시 추가하세요.": {
+    "ko": "기체 비용이 변경되었습니다. 해당 기체를 다시 추가하세요.",
+    "en": "Vehicle cost changed. Add this vehicle again.",
+    "ja": "機体コストが変更されています。機体を追加し直してください。"
+  },
+  "함대 BP와 진형을 제출하는 중…": {
+    "ko": "함대 BP와 진형을 제출하는 중…",
+    "en": "Submitting fleet and formation…",
+    "ja": "艦隊と陣形を提出中…"
+  },
+  "제출 완료 / Submitted": {
+    "ko": "제출 완료",
+    "en": "Submitted",
+    "ja": "提出完了"
+  },
+  "서버 규칙/함대 값 누락: ": {
+    "ko": "서버 규칙/함대 값 누락: ",
+    "en": "Missing rule or fleet value: ",
+    "ja": "ルールまたは艦隊の値がありません："
+  },
+  "올바르지 않은 수: ": {
+    "ko": "올바르지 않은 수: ",
+    "en": "Invalid number: ",
+    "ja": "不正な数値："
+  },
+  "수량을 바꿀 기체를 찾지 못했습니다.": {
+    "ko": "수량을 바꿀 기체를 찾지 못했습니다.",
+    "en": "Could not find the vehicle to change quantity.",
+    "ja": "数量を変更する機体が見つかりません。"
+  },
+  "이 기체의 수량은 0~": {
+    "ko": "이 기체의 수량은 0~",
+    "en": "Allowed quantity: 0–",
+    "ja": "指定可能な数量：0～"
+  },
+  "척까지 입력할 수 있습니다.": {
+    "ko": "척까지 입력할 수 있습니다.",
+    "en": " vehicles.",
+    "ja": "機。"
+  },
+  "교체할 기체를 선택하세요.": {
+    "ko": "교체할 기체를 선택하세요.",
+    "en": "Select a vehicle to replace.",
+    "ja": "交換する機体を選択してください。"
+  },
+  "교체하면 BP 종류 수 제한을 초과합니다. 같은 BP 전체 교체 또는 다른 기체 제거를 사용하세요.": {
+    "ko": "교체하면 BP 종류 수 제한을 초과합니다. 같은 BP 전체 교체 또는 다른 기체 제거를 사용하세요.",
+    "en": "Replacement exceeds the blueprint-type limit. Replace all copies or remove another type.",
+    "ja": "交換するとBP種類数の上限を超えます。同じBPをすべて交換するか、別の種類を削除してください。"
+  },
+  "대회의 기체 배치 수를 확인하세요.": {
+    "ko": "대회의 기체 배치 수를 확인하세요.",
+    "en": "Check the event's vehicle limit.",
+    "ja": "大会の機体数上限を確認してください。"
+  },
+  "대회의 BP 종류 수 제한을 초과했습니다.": {
+    "ko": "대회의 BP 종류 수 제한을 초과했습니다.",
+    "en": "Blueprint-type limit exceeded.",
+    "ja": "BP種類数の上限を超えています。"
+  },
+  "BP 해시가 올바르지 않습니다.": {
+    "ko": "BP 해시가 올바르지 않습니다.",
+    "en": "Invalid blueprint hash.",
+    "ja": "BPハッシュが不正です。"
+  },
+  "기체 소환비가 팀 예산을 초과했습니다.": {
+    "ko": "기체 소환비가 팀 예산을 초과했습니다.",
+    "en": "Spawn cost exceeds the team budget.",
+    "ja": "機体コストがチーム予算を超えています。"
+  },
+  " 값이 대회 허용 범위를 벗어났습니다.": {
+    "ko": " 값이 대회 허용 범위를 벗어났습니다.",
+    "en": " is outside the event's allowed range.",
+    "ja": "は大会の許容範囲外です。"
+  },
+  "내 함대 / My fleet": {
+    "ko": "내 함대",
+    "en": "My fleet",
+    "ja": "自分の艦隊"
+  },
+  "함대 이름: 1~40자 / Fleet name: 1–40 characters.": {
+    "ko": "함대 이름: 1~40자",
+    "en": "Fleet name: 1–40 characters.",
+    "ja": "艦隊名：1～40文字。"
+  },
+  "진형 배치도": {
+    "ko": "진형 배치도",
+    "en": "Formation map",
+    "ja": "陣形配置図"
+  },
+  "위에서 본 기체 중심과 방향. 번호를 선택하여 확인합니다. 편집 화면에서는 드래그로 이동합니다.": {
+    "ko": "위에서 본 기체 중심과 방향. 번호를 선택하여 확인합니다. 편집 화면에서는 드래그로 이동합니다.",
+    "en": "Top-down vehicle centres and headings. Select a number to inspect; drag to move in the editor.",
+    "ja": "機体の中心と方向を上から表示します。番号で選択し、編集画面ではドラッグで移動できます。"
+  },
+  "↑ 적 방향 / Enemy · H: 고도 / Alt · °: 방향 / Heading": {
+    "ko": "↑ 적 방향 · H: 고도 · °: 방향",
+    "en": "↑ Enemy · H: altitude · °: heading",
+    "ja": "↑ 敵方向 · H：高度 · °：方向"
+  },
+  "가로 / Width ": {
+    "ko": "가로 ",
+    "en": "Width ",
+    "ja": "幅 "
+  },
+  "깊이 / Depth\n": {
+    "ko": "깊이\n",
+    "en": "Depth\n",
+    "ja": "奥行き\n"
+  },
+  "m · 격자 / Grid ": {
+    "ko": "m · 격자 ",
+    "en": "m · Grid ",
+    "ja": "m · グリッド "
+  },
+  "m · 고도 / Alt ": {
+    "ko": "m · 고도 ",
+    "en": "m · Alt ",
+    "ja": "m · 高度 "
+  },
+  "랭크전 / Ranked Battles": {
+    "ko": "랭크전",
+    "en": "Ranked Battles",
+    "ja": "ランク戦"
+  },
+  "비동기 랭크전 / Asynchronous battles": {
+    "ko": "비동기 랭크전",
+    "en": "Asynchronous battles",
+    "ja": "非同期ランク戦"
+  },
+  "대회 / Events": {
+    "ko": "대회",
+    "en": "Events",
+    "ja": "大会"
+  },
+  "대회와 규칙 / Events and rules": {
+    "ko": "대회와 규칙",
+    "en": "Events and rules",
+    "ja": "大会とルール"
+  },
+  "로그인 / Sign in": {
+    "ko": "로그인",
+    "en": "Sign in",
+    "ja": "ログイン"
+  },
+  "계정 열기 / Open account": {
+    "ko": "계정 열기",
+    "en": "Open account",
+    "ja": "アカウントを開く"
+  },
+  "새로고침 / Refresh": {
+    "ko": "새로고침",
+    "en": "Refresh",
+    "ja": "更新"
+  },
+  "대회 목록 / Event list": {
+    "ko": "대회 목록",
+    "en": "Event list",
+    "ja": "大会一覧"
+  },
+  "접수 중 / Open": {
+    "ko": "접수 중",
+    "en": "Open",
+    "ja": "受付中"
+  },
+  "접수 마감 / Locked": {
+    "ko": "접수 마감",
+    "en": "Locked",
+    "ja": "受付終了"
+  },
+  "종료 / Closed": {
+    "ko": "종료",
+    "en": "Closed",
+    "ja": "終了"
+  },
+  "{0} · 예산 / Budget {1:N0} · {2:0.#}분 / min": {
+    "ko": "{0} · 예산 {1:N0} · {2:0.#}분",
+    "en": "{0} · Budget {1:N0} · {2:0.#} min",
+    "ja": "{0} · 予算 {1:N0} · {2:0.#}分"
+  },
+  "선택됨 / Selected": {
+    "ko": "선택됨",
+    "en": "Selected",
+    "ja": "選択中"
+  },
+  "대회 규칙 / Event rules": {
+    "ko": "대회 규칙",
+    "en": "Event rules",
+    "ja": "大会ルール"
+  },
+  "선택한 대회 / Selected event": {
+    "ko": "선택한 대회",
+    "en": "Selected event",
+    "ja": "選択中の大会"
+  },
+  "제출 마감 / Locked": {
+    "ko": "제출 마감",
+    "en": "Locked",
+    "ja": "提出締切"
+  },
+  "{0}\n예산 / Budget {1:N0} · 기체 / Units {2} · BP {3}\n시간 / Time {4}s · 거리 / Distance {5}m": {
+    "ko": "{0}\n예산 {1:N0} · 기체 {2} · BP {3}\n시간 {4}초 · 거리 {5}m",
+    "en": "{0}\nBudget {1:N0} · Units {2} · BP {3}\nTime {4}s · Distance {5}m",
+    "ja": "{0}\n予算 {1:N0} · 機体 {2} · BP {3}\n時間 {4}秒 · 距離 {5}m"
+  },
+  "등록된 대회 없음 / No events": {
+    "ko": "등록된 대회 없음",
+    "en": "No events",
+    "ja": "大会がありません"
+  },
+  "함대 / Fleet": {
+    "ko": "함대",
+    "en": "Fleet",
+    "ja": "艦隊"
+  },
+  "기체·진형 편집 / Ships and formation": {
+    "ko": "기체·진형 편집",
+    "en": "Vehicles and formation",
+    "ja": "機体と陣形の編集"
+  },
+  "드래그하거나 수치를 입력하여 조절합니다.": {
+    "ko": "드래그하거나 수치를 입력하여 조절합니다.",
+    "en": "Drag or enter a value to adjust.",
+    "ja": "ドラッグまたは数値入力で調整します。"
+  },
+  "대회를 먼저 선택하세요. / Select an event first.": {
+    "ko": "대회를 먼저 선택하세요.",
+    "en": "Select an event first.",
+    "ja": "先に大会を選択してください。"
+  },
+  "함대 이름 / Fleet name": {
+    "ko": "함대 이름",
+    "en": "Fleet name",
+    "ja": "艦隊名"
+  },
+  "1~40자 · 이름 수정은 교체 대기 없음 / 1–40 characters; no rename cooldown": {
+    "ko": "1~40자 · 이름 수정은 교체 대기 없음",
+    "en": "1–40 characters; no rename cooldown",
+    "ja": "1～40文字・名前変更に待機時間なし"
+  },
+  "미제출 / Not submitted": {
+    "ko": "미제출",
+    "en": "Not submitted",
+    "ja": "未提出"
+  },
+  "제출한 함대 / Submitted fleet": {
+    "ko": "제출한 함대",
+    "en": "Submitted fleet",
+    "ja": "提出済み艦隊"
+  },
+  "미제출 변경 있음 / Unsaved changes — 매칭은 제출본 사용 / Matches use submitted fleet": {
+    "ko": "미제출 변경 있음 · 매칭은 제출본 사용",
+    "en": "Unsaved changes · Matches use the submitted fleet",
+    "ja": "未提出の変更あり · 試合では提出済み艦隊を使用"
+  },
+  "기체 / Spawn {0:N0} + 보급 / Supply {1:N0} = 예산 / Budget {2:N0}\n기체 / Units {3}/{4} · BP {5}/{6}": {
+    "ko": "기체 {0:N0} + 보급 {1:N0} = 예산 {2:N0}\n기체 {3}/{4} · BP {5}/{6}",
+    "en": "Spawn {0:N0} + Supply {1:N0} = Budget {2:N0}\nUnits {3}/{4} · BP {5}/{6}",
+    "ja": "機体 {0:N0} + 補給 {1:N0} = 予算 {2:N0}\n機体 {3}/{4} · BP {5}/{6}"
+  },
+  "드래그 배치 / Drag to move · Shift: 10m · Alt: 자유 / Free · Esc: 취소 / Cancel": {
+    "ko": "드래그 배치 · Shift: 10m · Alt: 자유 · Esc: 취소",
+    "en": "Drag to move · Shift: 10m · Alt: free · Esc: cancel",
+    "ja": "ドラッグで配置 · Shift：10m · Alt：自由 · Esc：取消"
+  },
+  "확인 필요 / Check: ": {
+    "ko": "확인 필요: ",
+    "en": "Check: ",
+    "ja": "要確認："
+  },
+  "규칙 변경: 재제출 필요 / Rules changed: resubmit": {
+    "ko": "규칙 변경: 재제출 필요",
+    "en": "Rules changed: resubmit",
+    "ja": "ルール変更：再提出が必要"
+  },
+  "BP·수량 교체 / Replacement in ": {
+    "ko": "BP·수량 교체까지 ",
+    "en": "BP / quantity replacement in ",
+    "ja": "BP・数量の変更まで "
+  },
+  "BP·수량 교체 가능 / Replacement available": {
+    "ko": "BP·수량 교체 가능",
+    "en": "BP / quantity replacement available",
+    "ja": "BP・数量を変更できます"
+  },
+  "진형 수정은 대기 없음 / Formation changes: no cooldown": {
+    "ko": "진형 수정은 대기 없음",
+    "en": "Formation changes: no cooldown",
+    "ja": "陣形変更に待機時間なし"
+  },
+  "되돌리기 / Restore": {
+    "ko": "되돌리기",
+    "en": "Restore",
+    "ja": "元に戻す"
+  },
+  "제출한 진형 복원 / Restore submitted fleet": {
+    "ko": "제출한 진형 복원",
+    "en": "Restore submitted fleet",
+    "ja": "提出済み艦隊を復元"
+  },
+  "기체 추가 / Add blueprint": {
+    "ko": "기체 추가",
+    "en": "Add blueprint",
+    "ja": "機体を追加"
+  },
+  "BP 선택 / Select blueprint": {
+    "ko": "BP 선택",
+    "en": "Select blueprint",
+    "ja": "BPを選択"
+  },
+  "수량 / Quantity": {
+    "ko": "수량",
+    "en": "Quantity",
+    "ja": "数量"
+  },
+  "0: 모두 제거 / Remove all": {
+    "ko": "0: 모두 제거",
+    "en": "0: remove all",
+    "ja": "0：すべて削除"
+  },
+  "수량을 입력한 뒤 적용하세요. 기존 기체 위치는 유지됩니다.": {
+    "ko": "수량을 입력한 뒤 적용하세요. 기존 기체 위치는 유지됩니다.",
+    "en": "Enter a quantity and apply. Existing positions are preserved.",
+    "ja": "数量を入力して適用してください。既存の配置は維持されます。"
+  },
+  "적용 / Apply": {
+    "ko": "적용",
+    "en": "Apply",
+    "ja": "適用"
+  },
+  "기체 / Units": {
+    "ko": "기체",
+    "en": "Units",
+    "ja": "機体"
+  },
+  "선택하여 편집 / Select to edit": {
+    "ko": "선택하여 편집",
+    "en": "Select to edit",
+    "ja": "選択して編集"
+  },
+  "X {0} / Z {1} / 고도 {2} / 방향 {3}°": {
+    "ko": "X {0} / Z {1} / 고도 {2} / 방향 {3}°",
+    "en": "X {0} / Z {1} / Alt {2} / Heading {3}°",
+    "ja": "X {0} / Z {1} / 高度 {2} / 方向 {3}°"
+  },
+  "기체 / Unit {0}": {
+    "ko": "기체 {0}",
+    "en": "Unit {0}",
+    "ja": "機体 {0}"
+  },
+  "위치·방향 / Position and heading": {
+    "ko": "위치·방향",
+    "en": "Position and heading",
+    "ja": "位置と方向"
+  },
+  "좌우 / X {0}m": {
+    "ko": "좌우 {0}m",
+    "en": "X {0}m",
+    "ja": "左右 {0}m"
+  },
+  "앞뒤 / Z {0}m": {
+    "ko": "앞뒤 {0}m",
+    "en": "Z {0}m",
+    "ja": "前後 {0}m"
+  },
+  "고도 / Altitude {0}m": {
+    "ko": "고도 {0}m",
+    "en": "Altitude {0}m",
+    "ja": "高度 {0}m"
+  },
+  "방향 / Heading {0}°": {
+    "ko": "방향 {0}°",
+    "en": "Heading {0}°",
+    "ja": "方向 {0}°"
+  },
+  "BP 교체 / Replace": {
+    "ko": "BP 교체",
+    "en": "Replace BP",
+    "ja": "BPを交換"
+  },
+  "위치 유지 / Keep position": {
+    "ko": "위치 유지",
+    "en": "Keep position",
+    "ja": "位置を維持"
+  },
+  "같은 BP 교체 / Replace all copies": {
+    "ko": "같은 BP 교체",
+    "en": "Replace all copies",
+    "ja": "同じBPをすべて交換"
+  },
+  "각 위치 유지 / Keep positions": {
+    "ko": "각 위치 유지",
+    "en": "Keep positions",
+    "ja": "各位置を維持"
+  },
+  "복제 / Duplicate": {
+    "ko": "복제",
+    "en": "Duplicate",
+    "ja": "複製"
+  },
+  "한 척 추가 / Add one copy": {
+    "ko": "한 척 추가",
+    "en": "Add one copy",
+    "ja": "1機追加"
+  },
+  "제거 / Remove": {
+    "ko": "제거",
+    "en": "Remove",
+    "ja": "削除"
+  },
+  "선택 기체 제거 / Remove selected unit": {
+    "ko": "선택 기체 제거",
+    "en": "Remove selected unit",
+    "ja": "選択した機体を削除"
+  },
+  "자동 배치 / Grid": {
+    "ko": "자동 배치",
+    "en": "Grid",
+    "ja": "自動配置"
+  },
+  "행·열로 배치 / Arrange in rows": {
+    "ko": "행·열로 배치",
+    "en": "Arrange in rows",
+    "ja": "行と列に配置"
+  },
+  "열 / Columns {0}": {
+    "ko": "열 {0}",
+    "en": "Columns {0}",
+    "ja": "列数 {0}"
+  },
+  "한 줄의 기체 수 / Units per row": {
+    "ko": "한 줄의 기체 수",
+    "en": "Units per row",
+    "ja": "1行あたりの機体数"
+  },
+  "열 / Columns 1": {
+    "ko": "열 1",
+    "en": "Columns 1",
+    "ja": "列数 1"
+  },
+  "좌우 간격 / Spacing {0}m": {
+    "ko": "좌우 간격 {0}m",
+    "en": "Spacing {0}m",
+    "ja": "左右間隔 {0}m"
+  },
+  "같은 줄의 기체 사이 / Between units": {
+    "ko": "같은 줄의 기체 사이",
+    "en": "Between units",
+    "ja": "同じ行の機体間隔"
+  },
+  "행 간격 / Row spacing {0}m": {
+    "ko": "행 간격 {0}m",
+    "en": "Row spacing {0}m",
+    "ja": "行間隔 {0}m"
+  },
+  "행 사이 / Between rows": {
+    "ko": "행 사이",
+    "en": "Between rows",
+    "ja": "行と行の間隔"
+  },
+  "자동 배치 / Arrange": {
+    "ko": "자동 배치",
+    "en": "Arrange",
+    "ja": "自動配置"
+  },
+  "고도·방향 유지 / Keep altitude and heading": {
+    "ko": "고도·방향 유지",
+    "en": "Keep altitude and heading",
+    "ja": "高度と方向を維持"
+  },
+  "제출 / Submit fleet": {
+    "ko": "제출",
+    "en": "Submit fleet",
+    "ja": "艦隊を提出"
+  },
+  "함대와 진형 등록 / Submit fleet and formation": {
+    "ko": "함대와 진형 등록",
+    "en": "Submit fleet and formation",
+    "ja": "艦隊と陣形を登録"
+  },
+  "상대가 진행 / Opponent hosted": {
+    "ko": "상대가 진행",
+    "en": "Opponent hosted",
+    "ja": "相手が実行"
+  },
+  "내가 진행 / You hosted": {
+    "ko": "내가 진행",
+    "en": "You hosted",
+    "ja": "自分が実行"
+  },
+  "레이팅 / Rating {0:0.0} → {1:0.0}": {
+    "ko": "레이팅 {0:0.0} → {1:0.0}",
+    "en": "Rating {0:0.0} → {1:0.0}",
+    "ja": "レーティング {0:0.0} → {1:0.0}"
+  },
+  "\n체력 / Health {0:0.0}% : {1:0.0}%": {
+    "ko": "\n체력 {0:0.0}% : {1:0.0}%",
+    "en": "\nHealth {0:0.0}% : {1:0.0}%",
+    "ja": "\n耐久率 {0:0.0}% : {1:0.0}%"
+  },
+  "전투 / Battle": {
+    "ko": "전투",
+    "en": "Battle",
+    "ja": "戦闘"
+  },
+  "매칭·관전 / Match and watch": {
+    "ko": "매칭·관전",
+    "en": "Match and watch",
+    "ja": "マッチングと観戦"
+  },
+  "레이팅 / Rating · {0}전 / matches": {
+    "ko": "레이팅 · {0}전",
+    "en": "Rating · {0} matches",
+    "ja": "レーティング · {0}戦"
+  },
+  "함대를 먼저 제출하세요. / Submit your fleet first.": {
+    "ko": "함대를 먼저 제출하세요.",
+    "en": "Submit your fleet first.",
+    "ja": "先に艦隊を提出してください。"
+  },
+  "내 함대 / Your fleet · ": {
+    "ko": "내 함대 · ",
+    "en": "Your fleet · ",
+    "ja": "自分の艦隊 · "
+  },
+  "이 경기의 함대 / Match fleet": {
+    "ko": "이 경기의 함대",
+    "en": "Match fleet",
+    "ja": "この試合の艦隊"
+  },
+  "서버 제출본 / Submitted fleet": {
+    "ko": "서버 제출본",
+    "en": "Submitted fleet",
+    "ja": "提出済み艦隊"
+  },
+  "기체 / Units {0} · 소환 / Spawn {1:N0} · 보급 / Supply {2:N0}": {
+    "ko": "기체 {0} · 소환 {1:N0} · 보급 {2:N0}",
+    "en": "Units {0} · Spawn {1:N0} · Supply {2:N0}",
+    "ja": "機体 {0} · コスト {1:N0} · 補給 {2:N0}"
+  },
+  "미제출 편집안 있음 · 매칭은 위 함대 사용 / Unsaved draft; matching uses the fleet above": {
+    "ko": "미제출 편집안 있음 · 매칭은 위 함대 사용",
+    "en": "Unsaved draft · Matching uses the fleet above",
+    "ja": "未提出の編集案あり · 試合では上記の艦隊を使用"
+  },
+  "진형 접기 / Hide formation": {
+    "ko": "진형 접기",
+    "en": "Hide formation",
+    "ja": "陣形を隠す"
+  },
+  "진형 확인 / View formation": {
+    "ko": "진형 확인",
+    "en": "View formation",
+    "ja": "陣形を確認"
+  },
+  "제출한 배치·고도·방향 / Submitted positions, altitude and heading": {
+    "ko": "제출한 배치·고도·방향",
+    "en": "Submitted positions, altitude and heading",
+    "ja": "提出済みの位置・高度・方向"
+  },
+  "결과 재전송 / Retry result": {
+    "ko": "결과 재전송",
+    "en": "Retry result",
+    "ja": "結果を再送信"
+  },
+  "저장된 결과 전송 / Send saved result": {
+    "ko": "저장된 결과 전송",
+    "en": "Send saved result",
+    "ja": "保存された結果を送信"
+  },
+  "관전 중 / Watching · ": {
+    "ko": "관전 중 · ",
+    "en": "Watching · ",
+    "ja": "観戦中 · "
+  },
+  "관전 / Watch": {
+    "ko": "관전",
+    "en": "Watch",
+    "ja": "観戦"
+  },
+  "전투로 복귀 / Return to battle": {
+    "ko": "전투로 복귀",
+    "en": "Return to battle",
+    "ja": "戦闘に戻る"
+  },
+  "관전 시점 / Camera": {
+    "ko": "관전 시점",
+    "en": "Camera",
+    "ja": "観戦カメラ"
+  },
+  "기체 선택·추적 / Select and follow": {
+    "ko": "기체 선택·추적",
+    "en": "Select and follow",
+    "ja": "機体を選択して追跡"
+  },
+  "패배로 기록 / Counts as a loss": {
+    "ko": "패배로 기록",
+    "en": "Counts as a loss",
+    "ja": "敗北として記録"
+  },
+  "다음 경기 / Next match": {
+    "ko": "다음 경기",
+    "en": "Next match",
+    "ja": "次の試合"
+  },
+  "상대 찾기 / Find opponent": {
+    "ko": "상대 찾기",
+    "en": "Find opponent",
+    "ja": "対戦相手を検索"
+  },
+  "기체 / Units {0} · 제한 / Limit {1:0.#}분 / min": {
+    "ko": "기체 {0} · 제한 {1:0.#}분",
+    "en": "Units {0} · Limit {1:0.#} min",
+    "ja": "機体 {0} · 制限 {1:0.#}分"
+  },
+  "제출 마감 / Deadline: ": {
+    "ko": "제출 마감: ",
+    "en": "Deadline: ",
+    "ja": "提出期限："
+  },
+  "제출 기한 초과 / Deadline passed": {
+    "ko": "제출 기한 초과",
+    "en": "Deadline passed",
+    "ja": "提出期限切れ"
+  },
+  "전투 시작 / Start battle": {
+    "ko": "전투 시작",
+    "en": "Start battle",
+    "ja": "戦闘開始"
+  },
+  "1배속 관전 / Watch at 1×": {
+    "ko": "1배속 관전",
+    "en": "Watch at 1×",
+    "ja": "等速で観戦"
+  },
+  "상대 찾기 / Find match": {
+    "ko": "상대 찾기",
+    "en": "Find match",
+    "ja": "マッチング"
+  },
+  "제출한 함대로 참가 / Use submitted fleet": {
+    "ko": "제출한 함대로 참가",
+    "en": "Use submitted fleet",
+    "ja": "提出済み艦隊で参加"
+  },
+  "최신 전적 / Latest results": {
+    "ko": "최신 전적",
+    "en": "Latest results",
+    "ja": "最新の戦績"
+  },
+  "메뉴로 복귀 / Return to menu": {
+    "ko": "메뉴로 복귀",
+    "en": "Return to menu",
+    "ja": "メニューに戻る"
+  },
+  "전적 / History": {
+    "ko": "전적",
+    "en": "History",
+    "ja": "戦績"
+  },
+  "최근 경기 / Recent battles": {
+    "ko": "최근 경기",
+    "en": "Recent battles",
+    "ja": "最近の試合"
+  },
+  "완료한 경기 없음 / No completed matches": {
+    "ko": "완료한 경기 없음",
+    "en": "No completed matches",
+    "ja": "完了した試合がありません"
+  },
+  "최근 20경기 / Last 20 matches": {
+    "ko": "최근 20경기",
+    "en": "Last 20 matches",
+    "ja": "直近20試合"
+  },
+  "순위 / Ranking": {
+    "ko": "순위",
+    "en": "Ranking",
+    "ja": "ランキング"
+  },
+  "참가자 레이팅 / Player ratings": {
+    "ko": "참가자 레이팅",
+    "en": "Player ratings",
+    "ja": "参加者のレーティング"
+  },
+  "{0}전 / matches": {
+    "ko": "{0}전",
+    "en": "{0} matches",
+    "ja": "{0}戦"
+  },
+  "상위 100명 / Top 100": {
+    "ko": "상위 100명",
+    "en": "Top 100",
+    "ja": "上位100人"
+  },
+  "계정 / Account": {
+    "ko": "계정",
+    "en": "Account",
+    "ja": "アカウント"
+  },
+  "로그인·가입 / Sign in or register": {
+    "ko": "로그인·가입",
+    "en": "Sign in or register",
+    "ja": "ログイン・新規登録"
+  },
+  "다시 연결 / Reconnect": {
+    "ko": "다시 연결",
+    "en": "Reconnect",
+    "ja": "再接続"
+  },
+  "저장된 로그인 / Saved session": {
+    "ko": "저장된 로그인",
+    "en": "Saved session",
+    "ja": "保存されたログイン"
+  },
+  "아이디 등록 / Set username": {
+    "ko": "아이디 등록",
+    "en": "Set username",
+    "ja": "ユーザーIDを登録"
+  },
+  "기존 계정 유지 / Keep existing account": {
+    "ko": "기존 계정 유지",
+    "en": "Keep existing account",
+    "ja": "既存のアカウントを維持"
+  },
+  "닉네임 / Nickname: ": {
+    "ko": "닉네임: ",
+    "en": "Nickname: ",
+    "ja": "ニックネーム："
+  },
+  "로그인 아이디 / Username: ": {
+    "ko": "로그인 아이디: ",
+    "en": "Username: ",
+    "ja": "ユーザーID："
+  },
+  "로그아웃 / Sign out": {
+    "ko": "로그아웃",
+    "en": "Sign out",
+    "ja": "ログアウト"
+  },
+  "진행 중인 경기 종료 후 / After finishing your match": {
+    "ko": "진행 중인 경기 종료 후",
+    "en": "After finishing your match",
+    "ja": "進行中の試合終了後"
+  },
+  "비밀번호 변경 / Change password": {
+    "ko": "비밀번호 변경",
+    "en": "Change password",
+    "ja": "パスワード変更"
+  },
+  "새 비밀번호 설정 / Set a new password": {
+    "ko": "새 비밀번호 설정",
+    "en": "Set a new password",
+    "ja": "新しいパスワードを設定"
+  },
+  "로그인 양식 / Sign-in form": {
+    "ko": "로그인 양식",
+    "en": "Sign-in form",
+    "ja": "ログインフォーム"
+  },
+  "회원가입 / Register": {
+    "ko": "회원가입",
+    "en": "Register",
+    "ja": "新規登録"
+  },
+  "가입 양식 / Registration form": {
+    "ko": "가입 양식",
+    "en": "Registration form",
+    "ja": "登録フォーム"
+  },
+  "계정 분실 시 운영자 문의 / Contact admin for account help": {
+    "ko": "계정 분실 시 운영자 문의",
+    "en": "Contact admin for account help",
+    "ja": "アカウントを紛失した場合は管理者に連絡してください"
+  },
+  "로그인 아이디 / Username": {
+    "ko": "로그인 아이디",
+    "en": "Username",
+    "ja": "ユーザーID"
+  },
+  "닉네임 / Nickname": {
+    "ko": "닉네임",
+    "en": "Nickname",
+    "ja": "ニックネーム"
+  },
+  "현재 암호 / Current password": {
+    "ko": "현재 암호",
+    "en": "Current password",
+    "ja": "現在のパスワード"
+  },
+  "비밀번호 / Password": {
+    "ko": "비밀번호",
+    "en": "Password",
+    "ja": "パスワード"
+  },
+  "새 암호 / New password": {
+    "ko": "새 암호",
+    "en": "New password",
+    "ja": "新しいパスワード"
+  },
+  "암호 확인 / Confirm password": {
+    "ko": "암호 확인",
+    "en": "Confirm password",
+    "ja": "パスワード確認"
+  },
+  "새 비밀번호 8~32자 / New password: 8–32 characters": {
+    "ko": "새 비밀번호 8~32자",
+    "en": "New password: 8–32 characters",
+    "ja": "新しいパスワード：8～32文字"
+  },
+  "아이디·비밀번호 8~32자 / Username & password: 8–32\n아이디 / Username: A–Z, 0–9, _ . -\n공개 닉네임 2~24자 / Public nickname: 2–24": {
+    "ko": "아이디·비밀번호 8~32자\n아이디: A–Z, 0–9, _ . -\n공개 닉네임 2~24자",
+    "en": "Username & password: 8–32 characters\nUsername: A–Z, 0–9, _ . -\nPublic nickname: 2–24 characters",
+    "ja": "ID・パスワード：8～32文字\nID：A–Z、0–9、_ . -\n公開ニックネーム：2～24文字"
+  },
+  "가입 완료 / Create account": {
+    "ko": "가입 완료",
+    "en": "Create account",
+    "ja": "アカウント作成"
+  },
+  "로그인하기 / Sign in": {
+    "ko": "로그인하기",
+    "en": "Sign in",
+    "ja": "ログイン"
+  },
+  "등록 완료 / Save username": {
+    "ko": "등록 완료",
+    "en": "Save username",
+    "ja": "IDを保存"
+  },
+  "변경 적용 / Save password": {
+    "ko": "변경 적용",
+    "en": "Save password",
+    "ja": "パスワードを保存"
+  },
+  "가입 후 자동 로그인 / Register and sign in": {
+    "ko": "가입 후 자동 로그인",
+    "en": "Register and sign in",
+    "ja": "登録してログイン"
+  },
+  "확인 / Confirm": {
+    "ko": "확인",
+    "en": "Confirm",
+    "ja": "確認"
+  },
+  "대회 선택 / Select event": {
+    "ko": "대회 선택",
+    "en": "Select event",
+    "ja": "大会を選択"
+  },
+  "HTTPS 서버 주소를 사용하세요. HTTP는 로컬 시험 서버에만 허용됩니다.": {
+    "ko": "HTTPS 서버 주소를 사용하세요. HTTP는 로컬 시험 서버에만 허용됩니다.",
+    "en": "Use HTTPS. HTTP is allowed only for a local test server.",
+    "ja": "HTTPSを使用してください。HTTPはローカルテストサーバー専用です。"
+  },
+  "서버 응답 형식이 올바르지 않습니다. 서버 주소를 확인하세요.": {
+    "ko": "서버 응답 형식이 올바르지 않습니다. 서버 주소를 확인하세요.",
+    "en": "Invalid server response. Check the server address.",
+    "ja": "サーバー応答が不正です。アドレスを確認してください。"
+  },
+  "서버 요청에 실패했습니다.": {
+    "ko": "서버 요청에 실패했습니다.",
+    "en": "Server request failed.",
+    "ja": "サーバーへのリクエストに失敗しました。"
+  },
+  "BP 파일 크기는 최대 8 MiB입니다.": {
+    "ko": "BP 파일 크기는 최대 8 MiB입니다.",
+    "en": "Blueprint files must not exceed 8 MiB.",
+    "ja": "BPファイルは8 MiB以下にしてください。"
+  },
+  "FTD BP 파일 형식이 올바르지 않습니다.": {
+    "ko": "FTD BP 파일 형식이 올바르지 않습니다.",
+    "en": "Invalid FTD blueprint format.",
+    "ja": "FTDのBP形式が不正です。"
+  },
+  "경기 ID가 올바르지 않습니다.": {
+    "ko": "경기 ID가 올바르지 않습니다.",
+    "en": "Invalid match ID.",
+    "ja": "試合IDが不正です。"
+  },
+  "대회 함대 정보가 없는 경기입니다.": {
+    "ko": "대회 함대 정보가 없는 경기입니다.",
+    "en": "This match has no event fleet data.",
+    "ja": "この試合には大会用艦隊のデータがありません。"
+  },
+  "BP 파일이 너무 큽니다.": {
+    "ko": "BP 파일이 너무 큽니다.",
+    "en": "Blueprint file is too large.",
+    "ja": "BPファイルが大きすぎます。"
+  },
+  "경기 BP 체크섬이 일치하지 않습니다.": {
+    "ko": "경기 BP 체크섬이 일치하지 않습니다.",
+    "en": "Match blueprint checksum does not match.",
+    "ja": "試合のBPチェックサムが一致しません。"
+  },
+  "전장 준비 / Preparing": {
+    "ko": "전장 준비",
+    "en": "Preparing",
+    "ja": "準備中"
+  },
+  "추적 / Follow": {
+    "ko": "추적",
+    "en": "Follow",
+    "ja": "追跡"
+  },
+  " · ESC 시점 메뉴 / Camera menu\nF6 자유 / Free · F7/F8 기체 / Vehicle · F9 위 / Top": {
+    "ko": " · ESC 시점 메뉴\nF6 자유 · F7/F8 기체 · F9 위",
+    "en": " · ESC Camera menu\nF6 Free · F7/F8 Vehicle · F9 Top",
+    "ja": " · ESC カメラメニュー\nF6 自由 · F7/F8 機体 · F9 上から"
+  },
+  "Language": {
+    "ko": "모드 언어",
+    "en": "Mod language",
+    "ja": "MODの言語"
+  },
+  "Language scope": {
+    "ko": "랭크 모드에만 적용",
+    "en": "Ranked mod only",
+    "ja": "ランク戦MODのみに適用"
+  },
+  "아이디를 입력하세요.": {
+    "ko": "아이디를 입력하세요.",
+    "en": "Enter your username.",
+    "ja": "ユーザーIDを入力してください。"
+  },
+  "로그인해 주세요.": {
+    "ko": "로그인해 주세요.",
+    "en": "Please sign in.",
+    "ja": "ログインしてください。"
+  },
+  "로그인이 만료되었거나 다른 곳에서 로그인했습니다. 다시 로그인하세요.": {
+    "ko": "로그인이 만료되었거나 다른 곳에서 로그인했습니다. 다시 로그인하세요.",
+    "en": "Session expired or signed in elsewhere. Sign in again.",
+    "ja": "ログインの有効期限が切れたか、別の場所でログインしました。再度ログインしてください。"
+  },
+  "시도가 너무 많습니다. 최대 15분 뒤 다시 시도하세요.": {
+    "ko": "시도가 너무 많습니다. 최대 15분 뒤 다시 시도하세요.",
+    "en": "Too many attempts. Try again in up to 15 minutes.",
+    "ja": "試行回数が多すぎます。最大15分待ってから再試行してください。"
+  },
+  "아이디·닉네임이 사용 중이거나 계정 정보가 변경되었습니다. 다시 시도하세요.": {
+    "ko": "아이디·닉네임이 사용 중이거나 계정 정보가 변경되었습니다. 다시 시도하세요.",
+    "en": "Username or nickname is taken, or account details changed. Try again.",
+    "ja": "ID・ニックネームが使用中か、アカウント情報が変更されました。再試行してください。"
+  },
+  "계정을 찾을 수 없습니다.": {
+    "ko": "계정을 찾을 수 없습니다.",
+    "en": "Account not found.",
+    "ja": "アカウントが見つかりません。"
+  },
+  "회원가입·로그인을 지원하는 모드로 업데이트하세요.": {
+    "ko": "회원가입·로그인을 지원하는 모드로 업데이트하세요.",
+    "en": "Update to a mod version that supports account registration and sign-in.",
+    "ja": "アカウント登録とログインに対応するMODに更新してください。"
+  },
+  "인증 요청 경로가 올바르지 않습니다.": {
+    "ko": "인증 요청 경로가 올바르지 않습니다.",
+    "en": "Invalid authentication request.",
+    "ja": "認証リクエストが不正です。"
+  },
+  "로그인에는 HTTPS 서버 주소가 필요합니다.": {
+    "ko": "로그인에는 HTTPS 서버 주소가 필요합니다.",
+    "en": "Sign-in requires an HTTPS server.",
+    "ja": "ログインにはHTTPSサーバーが必要です。"
+  },
+  "먼저 기존 계정에 아이디를 등록하세요.": {
+    "ko": "먼저 기존 계정에 아이디를 등록하세요.",
+    "en": "Set a username for your existing account first.",
+    "ja": "既存のアカウントにユーザーIDを登録してください。"
+  },
+  "신규 참가 등록이 닫혀 있습니다.": {
+    "ko": "신규 참가 등록이 닫혀 있습니다.",
+    "en": "Registration is closed.",
+    "ja": "新規登録の受付は終了しています。"
+  },
+  "아이디 또는 닉네임이 이미 사용 중이거나 참가 정원에 도달했습니다.": {
+    "ko": "아이디 또는 닉네임이 이미 사용 중이거나 참가 정원에 도달했습니다.",
+    "en": "Username or nickname is taken, or registration is full.",
+    "ja": "IDまたはニックネームが使用中か、参加定員に達しています。"
+  },
+  "이미 아이디가 등록된 계정입니다.": {
+    "ko": "이미 아이디가 등록된 계정입니다.",
+    "en": "This account already has a username.",
+    "ja": "このアカウントにはユーザーIDが登録済みです。"
+  },
+  "아이디 또는 비밀번호가 올바르지 않습니다.": {
+    "ko": "아이디 또는 비밀번호가 올바르지 않습니다.",
+    "en": "Incorrect username or password.",
+    "ja": "ユーザーIDまたはパスワードが正しくありません。"
+  },
+  "로그인 중 계정 정보가 변경되었습니다. 다시 시도하세요.": {
+    "ko": "로그인 중 계정 정보가 변경되었습니다. 다시 시도하세요.",
+    "en": "Account details changed during sign-in. Try again.",
+    "ja": "ログイン中にアカウント情報が変更されました。再試行してください。"
+  },
+  "서버 인증 비밀키 설정이 필요합니다. 운영자에게 알려 주세요.": {
+    "ko": "서버 인증 비밀키 설정이 필요합니다. 운영자에게 알려 주세요.",
+    "en": "Server authentication is not configured. Contact the administrator.",
+    "ja": "サーバーの認証設定が必要です。管理者に連絡してください。"
+  },
+  "서버 계정 제한 설정이 잘못되었습니다.": {
+    "ko": "서버 계정 제한 설정이 잘못되었습니다.",
+    "en": "Invalid server account limit. Contact the administrator.",
+    "ja": "サーバーのアカウント上限設定が不正です。管理者に連絡してください。"
+  },
+  "최소 클라이언트 버전 설정이 없습니다.": {
+    "ko": "최소 클라이언트 버전 설정이 없습니다.",
+    "en": "Server client-version policy is missing.",
+    "ja": "サーバーの最低クライアントバージョン設定がありません。"
+  },
+  "결과는 패배(0), 무승부(0.5), 승리(1) 중 하나입니다.": {
+    "ko": "결과는 패배(0), 무승부(0.5), 승리(1) 중 하나입니다.",
+    "en": "Result must be loss (0), draw (0.5), or win (1).",
+    "ja": "結果は敗北(0)、引き分け(0.5)、勝利(1)のいずれかです。"
+  },
+  "지원하지 않는 경기 판정 방식입니다.": {
+    "ko": "지원하지 않는 경기 판정 방식입니다.",
+    "en": "Unsupported result policy.",
+    "ja": "未対応の試合判定方式です。"
+  },
+  "전투 종료 시각과 두 편대의 체력비·전멸 여부가 필요합니다.": {
+    "ko": "전투 종료 시각과 두 편대의 체력비·전멸 여부가 필요합니다.",
+    "en": "Result is missing battle duration, fleet health or elimination status.",
+    "ja": "戦闘時間、両艦隊の耐久率、全滅状態が必要です。"
+  },
+  "제한 시간 전에 판정승을 제출할 수 없습니다.": {
+    "ko": "제한 시간 전에 판정승을 제출할 수 없습니다.",
+    "en": "A judgment result cannot be submitted before the time limit.",
+    "ja": "制限時間前に判定勝ちを提出することはできません。"
+  },
+  "종료 상태와 경기 결과가 일치하지 않습니다.": {
+    "ko": "종료 상태와 경기 결과가 일치하지 않습니다.",
+    "en": "Battle state and result do not match.",
+    "ja": "終了状態と試合結果が一致しません。"
+  },
+  "검사할 BP 원본이 없습니다. 다시 업로드하세요.": {
+    "ko": "검사할 BP 원본이 없습니다. 다시 업로드하세요.",
+    "en": "Blueprint source missing. Upload it again.",
+    "ja": "検査するBP原本がありません。再アップロードしてください。"
+  },
+  "BP JSON을 읽지 못했습니다. 게임에서 다시 저장하세요.": {
+    "ko": "BP JSON을 읽지 못했습니다. 게임에서 다시 저장하세요.",
+    "en": "Could not read blueprint JSON. Save it again in the game.",
+    "ja": "BPのJSONを読み込めません。ゲームで保存し直してください。"
+  },
+  "BP 파일이 비어 있습니다.": {
+    "ko": "BP 파일이 비어 있습니다.",
+    "en": "Blueprint file is empty.",
+    "ja": "BPファイルが空です。"
+  },
+  "BP 파일 크기가 일치하지 않습니다.": {
+    "ko": "BP 파일 크기가 일치하지 않습니다.",
+    "en": "Blueprint file size does not match.",
+    "ja": "BPファイルサイズが一致しません。"
+  },
+  "저장된 BP 파일이 손상되었습니다. 운영자에게 알려 주세요.": {
+    "ko": "저장된 BP 파일이 손상되었습니다. 운영자에게 알려 주세요.",
+    "en": "Stored blueprint is damaged. Contact the administrator.",
+    "ja": "保存されたBPが破損しています。管理者に連絡してください。"
+  },
+  "이 계정의 경기가 아닙니다.": {
+    "ko": "이 계정의 경기가 아닙니다.",
+    "en": "This match does not belong to your account.",
+    "ja": "このアカウントの試合ではありません。"
+  },
+  "서버 DB 마이그레이션이 필요합니다. 운영자에게 알려 주세요.": {
+    "ko": "서버 DB 마이그레이션이 필요합니다. 운영자에게 알려 주세요.",
+    "en": "Server database needs an update. Contact the administrator.",
+    "ja": "サーバーDBの更新が必要です。管理者に連絡してください。"
+  },
+  "대회를 찾을 수 없습니다.": {
+    "ko": "대회를 찾을 수 없습니다.",
+    "en": "Event not found.",
+    "ja": "大会が見つかりません。"
+  },
+  "존재하지 않는 요청입니다.": {
+    "ko": "존재하지 않는 요청입니다.",
+    "en": "Request not found.",
+    "ja": "リクエストが見つかりません。"
+  },
+  "요청이 너무 큽니다.": {
+    "ko": "요청이 너무 큽니다.",
+    "en": "Request is too large.",
+    "ja": "リクエストが大きすぎます。"
+  },
+  "기체 이름 형식이 잘못되었습니다.": {
+    "ko": "기체 이름 형식이 잘못되었습니다.",
+    "en": "Invalid vehicle name.",
+    "ja": "機体名の形式が不正です。"
+  },
+  "게임이 계산한 기체 비용이 필요합니다.": {
+    "ko": "게임이 계산한 기체 비용이 필요합니다.",
+    "en": "Vehicle cost calculated by the game is required.",
+    "ja": "ゲームで計算した機体コストが必要です。"
+  },
+  "BP SHA-256 값이 필요합니다.": {
+    "ko": "BP SHA-256 값이 필요합니다.",
+    "en": "Blueprint checksum is required.",
+    "ja": "BPのチェックサムが必要です。"
+  },
+  "BP 파일 크기가 필요합니다.": {
+    "ko": "BP 파일 크기가 필요합니다.",
+    "en": "Blueprint file size is required.",
+    "ja": "BPファイルサイズが必要です。"
+  },
+  "계정의 BP 보관 한도에 도달했습니다.": {
+    "ko": "계정의 BP 보관 한도에 도달했습니다.",
+    "en": "Account blueprint storage limit reached.",
+    "ja": "アカウントのBP保存上限に達しました。"
+  },
+  "서버 BP 보관 제한 설정이 잘못되었습니다.": {
+    "ko": "서버 BP 보관 제한 설정이 잘못되었습니다.",
+    "en": "Invalid server blueprint storage limit.",
+    "ja": "サーバーのBP保存上限設定が不正です。"
+  },
+  "BP 해시가 일치하지 않습니다.": {
+    "ko": "BP 해시가 일치하지 않습니다.",
+    "en": "Blueprint checksum does not match.",
+    "ja": "BPのチェックサムが一致しません。"
+  },
+  "먼저 모든 BP 파일을 업로드하세요.": {
+    "ko": "먼저 모든 BP 파일을 업로드하세요.",
+    "en": "Upload all blueprint files first.",
+    "ja": "先にすべてのBPをアップロードしてください。"
+  },
+  "함대 이름을 입력하세요.": {
+    "ko": "함대 이름을 입력하세요.",
+    "en": "Enter a fleet name.",
+    "ja": "艦隊名を入力してください。"
+  },
+  "지금은 함대를 제출할 수 없습니다.": {
+    "ko": "지금은 함대를 제출할 수 없습니다.",
+    "en": "Fleet submission is currently closed.",
+    "ja": "現在は艦隊を提出できません。"
+  },
+  "대회 규칙이 바뀌었습니다. 다시 불러오세요.": {
+    "ko": "대회 규칙이 바뀌었습니다. 다시 불러오세요.",
+    "en": "Event rules changed. Refresh the event.",
+    "ja": "大会ルールが変更されました。再取得してください。"
+  },
+  "BP·수량 교체 대기, 진행 중인 경기 또는 변경된 대회 접수 상태·규칙을 확인하세요. 진형만 수정하면 교체 대기는 적용되지 않습니다.": {
+    "ko": "BP·수량 교체 대기, 진행 중인 경기 또는 변경된 대회 접수 상태·규칙을 확인하세요. 진형만 수정하면 교체 대기는 적용되지 않습니다.",
+    "en": "Check the replacement cooldown, active match and current event rules. Formation-only edits have no cooldown.",
+    "ja": "交換の待機時間、進行中の試合、大会ルールを確認してください。陣形のみの変更には待機時間はありません。"
+  },
+  "다른 대회의 진행 중인 경기를 먼저 마치거나 항복하세요.": {
+    "ko": "다른 대회의 진행 중인 경기를 먼저 마치거나 항복하세요.",
+    "en": "Finish or surrender your active match in the other event first.",
+    "ja": "別の大会で進行中の試合を終えるか降参してください。"
+  },
+  "종료된 대회입니다.": {
+    "ko": "종료된 대회입니다.",
+    "en": "This event has ended.",
+    "ja": "この大会は終了しています。"
+  },
+  "최신 대회 규칙으로 함대를 제출하세요.": {
+    "ko": "최신 대회 규칙으로 함대를 제출하세요.",
+    "en": "Submit your fleet under the current event rules.",
+    "ja": "最新の大会ルールに従って艦隊を提出してください。"
+  },
+  "이 대회에 매칭 가능한 다른 함대가 없습니다.": {
+    "ko": "이 대회에 매칭 가능한 다른 함대가 없습니다.",
+    "en": "No other fleet is available for matching in this event.",
+    "ja": "この大会には対戦可能な艦隊がありません。"
+  },
+  "매칭 상태가 변경되었습니다. 다시 시도하세요.": {
+    "ko": "매칭 상태가 변경되었습니다. 다시 시도하세요.",
+    "en": "Match state changed. Try again.",
+    "ja": "マッチング状態が変更されました。再試行してください。"
+  },
+  "이 경기의 BP가 아닙니다.": {
+    "ko": "이 경기의 BP가 아닙니다.",
+    "en": "This blueprint does not belong to this match.",
+    "ja": "この試合のBPではありません。"
+  },
+  "경기 BP 파일이 없습니다. 운영자에게 알려 주세요.": {
+    "ko": "경기 BP 파일이 없습니다. 운영자에게 알려 주세요.",
+    "en": "Match blueprint missing. Contact the administrator.",
+    "ja": "試合のBPがありません。管理者に連絡してください。"
+  },
+  "로컬 저장소를 열 수 없습니다. / Cannot open local storage.": {
+    "ko": "로컬 저장소를 열 수 없습니다.",
+    "en": "Cannot open local storage.",
+    "ja": "ローカル保存先を開けません。"
+  },
+  "Keys.Title": {
+    "ko": "관전 단축키",
+    "ja": "観戦ショートカット",
+    "en": "Spectator shortcuts"
+  },
+  "Keys.Scope": {
+    "ko": "랭크전 관전 중에만 적용됩니다. 키 버튼을 눌러 변경하세요.",
+    "ja": "ランク戦の観戦中のみ有効です。キーのボタンを押すと変更できます。",
+    "en": "Active during ranked spectating. Click a key to change it."
+  },
+  "Keys.FreeCamera": {
+    "ko": "자유 시점",
+    "ja": "自由視点",
+    "en": "Free camera"
+  },
+  "Keys.PreviousVehicle": {
+    "ko": "이전 기체",
+    "ja": "前の機体",
+    "en": "Previous vehicle"
+  },
+  "Keys.NextVehicle": {
+    "ko": "다음 기체",
+    "ja": "次の機体",
+    "en": "Next vehicle"
+  },
+  "Keys.TopView": {
+    "ko": "위에서 보기",
+    "ja": "上空視点",
+    "en": "Top view"
+  },
+  "Keys.Disabled": {
+    "ko": "사용 안 함",
+    "ja": "未割り当て",
+    "en": "Unbound"
+  },
+  "Keys.Disable": {
+    "ko": "사용 안 함",
+    "ja": "割り当て解除",
+    "en": "Unbind"
+  },
+  "Keys.Change": {
+    "ko": "새 키 지정",
+    "ja": "新しいキーを設定",
+    "en": "Assign a new key"
+  },
+  "Keys.Restore": {
+    "ko": "모든 기본값 복원",
+    "ja": "すべて初期設定に戻す",
+    "en": "Restore all defaults"
+  },
+  "Keys.Press": {
+    "ko": "새 키 또는 조합키를 누르세요. Shift·Ctrl·Alt를 함께 누를 수 있습니다. Esc로 취소합니다.",
+    "ja": "新しいキー、またはShift・Ctrl・Altとの組み合わせを押してください。Escでキャンセルします。",
+    "en": "Press a key or hold Shift, Ctrl or Alt with it. Esc cancels."
+  },
+  "Keys.Cancel": {
+    "ko": "취소",
+    "ja": "キャンセル",
+    "en": "Cancel"
+  },
+  "Keys.Duplicate": {
+    "ko": "{0} 키는 「{1}」에서 사용 중입니다. 다른 키를 누르세요.",
+    "ja": "{0} は「{1}」で使用中です。別のキーを押してください。",
+    "en": "{0} is already assigned to {1}. Press another key."
+  },
+  "Keys.KeyboardOnly": {
+    "ko": "Esc·보조키 단독을 제외한 키보드 키를 선택하세요.",
+    "ja": "Escや修飾キー単独以外のキーを選んでください。",
+    "en": "Choose a keyboard key other than Esc or a modifier on its own."
+  },
+  "Keys.Saved": {
+    "ko": "저장되었습니다.",
+    "ja": "保存しました。",
+    "en": "Saved."
+  },
+  "Keys.SaveFailed": {
+    "ko": "저장하지 못했습니다: {0}",
+    "ja": "保存できませんでした: {0}",
+    "en": "Could not save: {0}"
+  },
+  "Keys.CameraMenu": {
+    "ko": "ESC 시점 메뉴",
+    "ja": "ESC カメラメニュー",
+    "en": "ESC Camera menu"
+  },
+  "Chat.Title": {
+    "ko": "채팅",
+    "ja": "チャット",
+    "en": "Chat"
+  },
+  "Chat.Channels": {
+    "ko": "채널",
+    "ja": "チャンネル",
+    "en": "Channels"
+  },
+  "Chat.CloseSearch": {
+    "ko": "닫기",
+    "ja": "閉じる",
+    "en": "Close"
+  },
+  "Chat.Connected": {
+    "ko": "연결됨",
+    "ja": "接続済み",
+    "en": "Connected"
+  },
+  "Chat.Enter": {
+    "ko": "Enter로 전송",
+    "ja": "Enterで送信",
+    "en": "Enter to send"
+  },
+  "Chat.Info": {
+    "ko": "안내",
+    "ja": "案内",
+    "en": "About"
+  },
+  "Chat.Found": {
+    "ko": "검색 결과 {0}개",
+    "ja": "検索結果 {0}件",
+    "en": "{0} results"
+  },
+  "Chat.Empty": {
+    "ko": "아직 대화가 없습니다. 첫 메시지를 남겨 보세요.",
+    "ja": "まだメッセージはありません。最初のメッセージをどうぞ。",
+    "en": "No messages yet. Start the conversation."
+  },
+  "Chat.NoResults": {
+    "ko": "검색 결과가 없습니다.",
+    "ja": "検索結果はありません。",
+    "en": "No matching messages."
+  },
+  "Chat.BlockedUser": {
+    "ko": "차단한 사용자 {0}",
+    "ja": "ブロックしたユーザー {0}",
+    "en": "Blocked user {0}"
+  },
+  "Chat.NoneBlocked": {
+    "ko": "차단한 사용자가 없습니다.",
+    "ja": "ブロックしたユーザーはいません。",
+    "en": "No blocked users."
+  },
+  "Chat.Close": {
+    "ko": "닫기",
+    "ja": "閉じる",
+    "en": "Close"
+  },
+  "Profile.Color": {
+    "ko": "닉네임 색상",
+    "ja": "ニックネームの色",
+    "en": "Nickname color"
+  },
+  "Profile.Shared": {
+    "ko": "채팅·랭킹·매칭·전적에서 다른 사람에게도 보이는 색상입니다.",
+    "ja": "チャット・ランキング・対戦・履歴で他のプレイヤーにも表示されます。",
+    "en": "Visible to other players in chat, rankings, matches and history."
+  },
+  "Profile.Save": {
+    "ko": "색상 저장",
+    "ja": "色を保存",
+    "en": "Save color"
+  },
+  "Profile.Default": {
+    "ko": "기본색 복원",
+    "ja": "既定の色に戻す",
+    "en": "Restore default"
+  },
+  "Profile.Invalid": {
+    "ko": "#66CCFF처럼 RGB 6자리 색상을 입력하세요.",
+    "ja": "#66CCFFのようなRGB6桁の色を入力してください。",
+    "en": "Enter a six-digit RGB color such as #66CCFF."
+  },
+  "Profile.Saving": {
+    "ko": "색상 저장 중…",
+    "ja": "色を保存中…",
+    "en": "Saving color…"
+  },
+  "Profile.Saved": {
+    "ko": "닉네임 색상을 저장했습니다.",
+    "ja": "ニックネームの色を保存しました。",
+    "en": "Nickname color saved."
+  },
+  "Use an RGB color such as #66CCFF, or reset to default.": {
+    "ko": "#66CCFF처럼 RGB 색상을 입력하거나 기본색으로 복원하세요.",
+    "ja": "#66CCFFのようなRGB色を入力するか既定の色に戻してください。",
+    "en": "Use an RGB color such as #66CCFF, or reset to default."
+  },
+  "Wait ten seconds before changing your nickname color again.": {
+    "ko": "닉네임 색상은 10초 후 다시 변경할 수 있습니다.",
+    "ja": "ニックネームの色は10秒後に再変更できます。",
+    "en": "Wait ten seconds before changing your nickname color again."
+  },
+  "Submit a fleet to this event to join its chat.": {
+    "ko": "이 대회에 함대를 제출한 뒤 채팅에 참여할 수 있습니다.",
+    "ja": "この大会に艦隊を提出するとチャットに参加できます。",
+    "en": "Submit a fleet to this event to join its chat."
+  },
+  "Chat.General": {
+    "ko": "전체",
+    "ja": "全体",
+    "en": "General"
+  },
+  "Chat.SignIn": {
+    "ko": "로그인 후 채팅을 이용하세요.",
+    "ja": "ログインしてチャットを利用できます。",
+    "en": "Sign in to chat."
+  },
+  "Chat.Offline": {
+    "ko": "연결 안 됨",
+    "ja": "未接続",
+    "en": "Disconnected"
+  },
+  "Chat.Connecting": {
+    "ko": "연결 중…",
+    "ja": "接続中…",
+    "en": "Connecting…"
+  },
+  "Chat.Failed": {
+    "ko": "채팅 연결을 확인한 뒤 다시 연결하세요.",
+    "ja": "接続を確認して再接続してください。",
+    "en": "Check the connection and reconnect to chat."
+  },
+  "Chat.Connect": {
+    "ko": "연결",
+    "ja": "接続",
+    "en": "Connect"
+  },
+  "Chat.Blocked": {
+    "ko": "차단 목록",
+    "ja": "ブロック一覧",
+    "en": "Blocked users"
+  },
+  "Chat.Block": {
+    "ko": "차단",
+    "ja": "ブロック",
+    "en": "Block"
+  },
+  "Chat.Unblock": {
+    "ko": "해제",
+    "ja": "解除",
+    "en": "Unblock"
+  },
+  "Chat.Hidden": {
+    "ko": "관리자가 숨긴 메시지",
+    "ja": "管理者が非表示にしたメッセージ",
+    "en": "Message hidden by an administrator"
+  },
+  "Chat.Older": {
+    "ko": "이전 메시지",
+    "ja": "以前のメッセージ",
+    "en": "Older messages"
+  },
+  "Chat.Latest": {
+    "ko": "최신으로",
+    "ja": "最新へ",
+    "en": "Latest"
+  },
+  "Chat.Cooldown": {
+    "ko": "남은 시간 {0}초",
+    "ja": "あと{0}秒",
+    "en": "{0}s remaining"
+  },
+  "Chat.Send": {
+    "ko": "전송",
+    "ja": "送信",
+    "en": "Send"
+  },
+  "Chat.SearchLabel": {
+    "ko": "내용·닉네임 (2~50자)",
+    "ja": "本文・名前 (2～50文字)",
+    "en": "Text / name (2–50 chars)"
+  },
+  "Chat.Search": {
+    "ko": "검색",
+    "ja": "検索",
+    "en": "Search"
+  },
+  "Chat.SearchOlder": {
+    "ko": "이전 기록 검색",
+    "ja": "以前の記録を検索",
+    "en": "Search older logs"
+  },
+  "Chat.SearchResults": {
+    "ko": "이 구간 {0}개에서 {1}개 찾음 · 한 번에 최대 1,000개 검색",
+    "ja": "この区間の{0}件から{1}件 · 1回に最大1,000件を検索",
+    "en": "{1} matches in this batch of {0} messages · Up to 1,000 scanned per search"
+  },
+  "Chat.Stored": {
+    "ko": "최대 300자 · 채팅은 서버에 기록되며 관리자가 열람할 수 있습니다.",
+    "ja": "最大300文字 · チャットはサーバーに記録され、管理者が閲覧できます。",
+    "en": "Up to 300 characters. Chat is logged on the server and visible to administrators."
+  },
+  "Keys.Mouse": {
+    "ko": "우클릭 드래그: 회전 · 휠: 거리",
+    "ja": "右ドラッグ: 回転 · ホイール: 距離",
+    "en": "RMB drag: rotate · Wheel: distance"
+  },
+  "Result.SurrenderSaveFailed": {
+    "ko": "항복 결과를 저장하지 못했습니다. 전투는 계속됩니다. 저장 공간을 확인하고 다시 항복해 주세요.",
+    "en": "Could not save the surrender. Battle continues. Check local storage and try surrendering again.",
+    "ja": "降参結果を保存できませんでした。戦闘は続行中です。保存先を確認して、再度降参してください。"
+  },
+  "Result.InvalidReceipt": {
+    "ko": "서버 결과를 확인하지 못했습니다. 다시 시도해 주세요.",
+    "en": "Could not verify the server result. Please retry.",
+    "ja": "サーバーの結果を確認できませんでした。再試行してください。"
+  },
+  "Result.Sending": {
+    "ko": "결과 전송 중",
+    "en": "Sending result",
+    "ja": "結果を送信中"
+  },
+  "Result.SignIn": {
+    "ko": "결과 확정에 로그인 필요",
+    "en": "Sign in to finalize result",
+    "ja": "結果確定にはログインが必要"
+  },
+  "Result.Attention": {
+    "ko": "결과 전송 확인 필요",
+    "en": "Result needs attention",
+    "ja": "結果の送信を確認してください"
+  },
+  "Result.SaveWaiting": {
+    "ko": "결과 저장 재시도 대기",
+    "en": "Retrying local result save",
+    "ja": "結果の保存を再試行待ち"
+  },
+  "Result.CleanupWaiting": {
+    "ko": "결과 확정됨 · 로컬 정리 대기",
+    "en": "Result confirmed · local cleanup pending",
+    "ja": "結果確定済み・ローカル整理待ち"
+  },
+  "Result.SurrenderWaiting": {
+    "ko": "항복 결과 전송 대기",
+    "en": "Surrender result pending",
+    "ja": "降参結果の送信待ち"
+  },
+  "Result.Waiting": {
+    "ko": "전투 결과 전송 대기",
+    "en": "Battle result pending",
+    "ja": "戦闘結果の送信待ち"
+  },
+  "Result.SaveWarning": {
+    "ko": "함대 잠김. 결과를 PC에 저장하지 못했습니다. 저장 공간을 확인하고 게임을 종료하지 마세요.",
+    "en": "Fleet locked. The result could not be saved locally. Check storage and keep the game open.",
+    "ja": "艦隊はロック中です。結果をPCに保存できません。保存先を確認し、ゲームを終了しないでください。"
+  },
+  "Result.Locked": {
+    "ko": "함대 잠김. 결과 확인과 로컬 정리가 완료되면 자동으로 해제됩니다.",
+    "en": "Fleet locked until result confirmation and local cleanup finish. It will unlock automatically.",
+    "ja": "結果の確認とローカル整理が完了するまで艦隊はロックされます。完了後、自動で解除されます。"
+  },
+  "Result.RetryIn": {
+    "ko": "{0}초 후 자동 재시도",
+    "en": "Automatic retry in {0}s",
+    "ja": "{0}秒後に自動再試行"
+  },
+  "Result.AccountHint": {
+    "ko": "이 경기를 진행한 계정으로 로그인하면 저장된 결과를 다시 전송합니다.",
+    "en": "Sign in with the account that played this match to resend the saved result.",
+    "ja": "この試合を行ったアカウントでログインすると、保存済みの結果を再送します。"
+  },
+  "Result.RetryNow": {
+    "ko": "지금 다시 시도",
+    "en": "Retry now",
+    "ja": "今すぐ再試行"
+  },
+  "Match.Ready": {
+    "ko": "매칭 완료 · 전투 시작 대기",
+    "en": "Opponent found · ready to battle",
+    "ja": "対戦相手決定・戦闘開始待ち"
+  },
+  "Match.Preparing": {
+    "ko": "전투 준비 중",
+    "en": "Preparing battle",
+    "ja": "戦闘準備中"
+  },
+  "Match.Running": {
+    "ko": "전투 진행 중",
+    "en": "Battle in progress",
+    "ja": "戦闘中"
+  },
+  "Match.Locked": {
+    "ko": "경기가 진행 중이므로 함대가 잠겨 있습니다. 전투를 완료하거나 항복하면 해제됩니다.",
+    "en": "Fleet locked by an active match. Complete the battle or surrender to unlock it.",
+    "ja": "試合中のため艦隊はロックされています。戦闘を完了するか降参すると解除されます。"
+  },
+  "Match.Open": {
+    "ko": "진행 중인 경기 보기",
+    "en": "Open active match",
+    "ja": "進行中の試合を開く"
+  },
+  "Client.UpdateRequired": {
+    "ko": "모드 업데이트가 필요합니다. 서버 접속이 제한되었습니다.\n최소 버전: {0} · 통신 규격: {1}\nContent → Mods → Download에서 Ranked Battles를 업데이트하고 게임을 재시작하세요.",
+    "en": "Mod update required. Server access is blocked.\nMinimum version: {0} · Protocol: {1}\nUpdate Ranked Battles via Content → Mods → Download, then restart the game.",
+    "ja": "MODの更新が必要です。サーバーへの接続が制限されています。\n必要な最低バージョン: {0} · 通信規格: {1}\nContent → Mods → DownloadからRanked Battlesを更新し、ゲームを再起動してください。"
+  },
+  "Ranking.Previous": {
+    "ko": "이전 페이지",
+    "en": "Previous page",
+    "ja": "前のページ"
+  },
+  "Ranking.Next": {
+    "ko": "다음 페이지",
+    "en": "Next page",
+    "ja": "次のページ"
+  },
+  "Ranking.Page": {
+    "ko": "{0} / {1} 페이지",
+    "en": "Page {0} / {1}",
+    "ja": "{0} / {1} ページ"
+  },
+  "Ranking.Range": {
+    "ko": "전체 {2:N0}명 · {0:N0}–{1:N0}번째 참가자",
+    "en": "Players {0:N0}–{1:N0} of {2:N0}",
+    "ja": "全{2:N0}人中 {0:N0}–{1:N0}人目"
+  },
+  "Ranking.Refresh": {
+    "ko": "현재 페이지 새로고침",
+    "en": "Refresh the current page",
+    "ja": "現在のページを更新"
+  },
+  "Ranking.Empty": {
+    "ko": "아직 순위표에 등록된 참가자가 없습니다.",
+    "en": "No ranked players yet.",
+    "ja": "ランキングに登録された参加者はまだいません。"
+  },
+  "Ranking.InvalidResponse": {
+    "ko": "순위표를 불러오지 못했습니다. 다시 새로고침하세요.",
+    "en": "Could not load the ranking. Please refresh again.",
+    "ja": "ランキングを読み込めませんでした。もう一度更新してください。"
+  }
+}

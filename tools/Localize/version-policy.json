@@ -1,0 +1,7 @@
+{
+  "Client.UpdateRequired": {
+    "ko": "모드 업데이트가 필요합니다. 서버 접속이 제한되었습니다.\n최소 버전: {0} · 통신 규격: {1}\nContent → Mods → Download에서 Ranked Battles를 업데이트하고 게임을 재시작하세요.",
+    "en": "Mod update required. Server access is blocked.\nMinimum version: {0} · Protocol: {1}\nUpdate Ranked Battles via Content → Mods → Download, then restart the game.",
+    "ja": "MODの更新が必要です。サーバーへの接続が制限されています。\n必要な最低バージョン: {0} · 通信規格: {1}\nContent → Mods → DownloadからRanked Battlesを更新し、ゲームを再起動してください。"
+  }
+}

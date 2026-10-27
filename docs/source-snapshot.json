@@ -1,0 +1,835 @@
+{
+  "clientVersion": "0.7.7",
+  "serverVersion": "0.9.6",
+  "schemaVersion": 22,
+  "files": [
+    {
+      "path": "Build.ps1",
+      "sha256": "e80ff159aaae668b7b8cfeb694f076e189bbb992ce425ff60fd135c242147ea4"
+    },
+    {
+      "path": "README.txt",
+      "sha256": "fe3c84382dddcf34052fed73f086fb5481d390999f5b5cb75c08cd2cb578f26f"
+    },
+    {
+      "path": "assets/flags/en.png",
+      "sha256": "89e60a973ab6786be1a35db37b666ba439a9eec0c4e83408fd42f3de67793610"
+    },
+    {
+      "path": "assets/flags/ja.png",
+      "sha256": "f720f3c73701a266fca2b29751bf637a5da0a6b4534257ebcbc2d2ad5cf4a693"
+    },
+    {
+      "path": "assets/flags/ko.png",
+      "sha256": "2d1da012944ae96af9c94ece8992925d8e008646b1031050db12fc62f72d6ff6"
+    },
+    {
+      "path": "assets/languages.json",
+      "sha256": "b5b8296406dba582864d238673e53fc8eb3d476c6e40d7dce5ff1ce70c34eb5a"
+    },
+    {
+      "path": "assets/maps/aote.png",
+      "sha256": "6e506bf1d94510b97a5f57d6f3b4d754e7805cc74100031c4212501ea09728b2"
+    },
+    {
+      "path": "assets/maps/neter.png",
+      "sha256": "7e4c768d645233640b8e943ccdb1486540e9079158ae00bc0a4ef007622005da"
+    },
+    {
+      "path": "header.header",
+      "sha256": "8b549ca90d64a8aaa476f1e8214d3f87cc55fe76a24b220d6ab2ac291ea872ef"
+    },
+    {
+      "path": "header.jpg",
+      "sha256": "4524921132e50efbabac70bc5b5c4e3db1c90e0a0d32424c0e930bbf96355e2a"
+    },
+    {
+      "path": "plugin.json",
+      "sha256": "9192c68ea303f4c389819b7a766de9fc3775dcbf99da6c8f195a99afb1f30a22"
+    },
+    {
+      "path": "server/cloudflare/.gitignore",
+      "sha256": "5361db36069b0ea0278356a96cd9f57e9f2ddf9cbc11ab9fa2e84bb95d430533"
+    },
+    {
+      "path": "server/cloudflare/migrations/0001_initial.sql",
+      "sha256": "5250aee9b107afc20612e3a52021852aa9b46cfda28516d11858c0567e26909f"
+    },
+    {
+      "path": "server/cloudflare/migrations/0002_match_indexes.sql",
+      "sha256": "ddd39d5a7702d6172a891c3cbcb79d731d631f08cc354fa086af25a177106334"
+    },
+    {
+      "path": "server/cloudflare/migrations/0003_tournaments.sql",
+      "sha256": "6fb2a9534d16438c7a15b5c0e8b89dc3778a68226616b8378239f6b4022b0e72"
+    },
+    {
+      "path": "server/cloudflare/migrations/0004_block_bans.sql",
+      "sha256": "f55ec11294e4fc5bdb2d88abbafdf40ae860b89296fad0ab019928a3accbb441"
+    },
+    {
+      "path": "server/cloudflare/migrations/0005_battlefield_worlds.sql",
+      "sha256": "7814ba765b574fc1fd9a8799e0f762336f5f1495ed8c3158e8ecd01a8ac29ab6"
+    },
+    {
+      "path": "server/cloudflare/migrations/0006_accounts_auth.sql",
+      "sha256": "f83067e4775b2d955500d1079ed6be656ca7836d105fa34f712ecd9c8103213b"
+    },
+    {
+      "path": "server/cloudflare/migrations/0007_remove_account_recovery.sql",
+      "sha256": "ebcecaba1f15d6f0c82bfe08a9420958102bf75872cc5dc18edd76684a28192f"
+    },
+    {
+      "path": "server/cloudflare/migrations/0008_formation_cooldown.sql",
+      "sha256": "8b75e3384165bb4862bed0d8bde42c0d64df69ee0c6fba641af10e4f49b0956d"
+    },
+    {
+      "path": "server/cloudflare/migrations/0009_system_opponents.sql",
+      "sha256": "2e93f5a746bd49c20279fba5facaa4a3765e4d1e72ae42421273e289e70f1b16"
+    },
+    {
+      "path": "server/cloudflare/migrations/0010_ten_minute_default.sql",
+      "sha256": "1bcd72c51e4dc0fe98565b1f4f85354bd52a12ec9d5ec68d19bac3813132a2cb"
+    },
+    {
+      "path": "server/cloudflare/migrations/0011_health_judgment_client.sql",
+      "sha256": "4e7fd557fb49ed9647a2778fba6e39098478692a37e7b6a2d6c81fdc55adc3cf"
+    },
+    {
+      "path": "server/cloudflare/migrations/0012_d1_blueprint_storage.sql",
+      "sha256": "40c18730d457d6c569f4d0c716bc0db84740644444ef87a4a01483e4c43f3ac5"
+    },
+    {
+      "path": "server/cloudflare/migrations/0013_abandoned_match_losses.sql",
+      "sha256": "152597301ba6bac5f3ca1ca3bd005c803d4b8d0e7941403f7026b7890093c8d2"
+    },
+    {
+      "path": "server/cloudflare/migrations/0014_public_nicknames.sql",
+      "sha256": "3e79e1564a2de5149828793edded2cbb4ef4ed8033b2d989aaf7c66d8f742d56"
+    },
+    {
+      "path": "server/cloudflare/migrations/0015_tournament_ratings.sql",
+      "sha256": "ee3241ebc6e10221ad0ace23d3faaaf024783c63a7510f324c42df061ba29bfd"
+    },
+    {
+      "path": "server/cloudflare/migrations/0016_bilateral_ratings.sql",
+      "sha256": "f1865269418456ae13dc796e80fb943e98debc515c5b86674bed6bee72502498"
+    },
+    {
+      "path": "server/cloudflare/migrations/0017_blueprint_locations.sql",
+      "sha256": "437781c443f3177d04cd462cb9582e609a74bfc11966f74a170d124c321564e8"
+    },
+    {
+      "path": "server/cloudflare/migrations/0018_blueprint_cleanup.sql",
+      "sha256": "6b440fff9aeee83061cb5a3750f92c77c706927e4a4918e0b0c296e0b0086d85"
+    },
+    {
+      "path": "server/cloudflare/migrations/0019_storage_admin.sql",
+      "sha256": "c372620ce2139211a769fe00aa1ea68e2e9dca2525d27fe3a4a25b72cbbab4a1"
+    },
+    {
+      "path": "server/cloudflare/migrations/0020_nickname_colors.sql",
+      "sha256": "6c904c7f3130a08c2dc75c00a52c0a1e321242eab2fecddff66edfafdc87c78e"
+    },
+    {
+      "path": "server/cloudflare/migrations/0021_admin_activity_indexes.sql",
+      "sha256": "4392b28b79498d82c160ac794d0103631a96988d5cdcabb49fc8e8b83e9618bc"
+    },
+    {
+      "path": "server/cloudflare/migrations/0022_email_recovery.sql",
+      "sha256": "bd75294927e4fc89dbcd7d70764f3e53f4260f49c80255662cf7ea4d9f1fc236"
+    },
+    {
+      "path": "server/cloudflare/package.json",
+      "sha256": "e10bce4cee5a25eddd16b9e06d7cd6f06ee895337661eaa36a16b4b1491f6dc9"
+    },
+    {
+      "path": "server/cloudflare/pnpm-lock.yaml",
+      "sha256": "3c9815fd645bb1230ce4ee27f1b7d71c775835fb8b7facc5525dcbd6830cba92"
+    },
+    {
+      "path": "server/cloudflare/pnpm-workspace.yaml",
+      "sha256": "5f5605b3f08ade6af3333cbc40478b15183eedb7e63db7e73d587b4794e1ddd6"
+    },
+    {
+      "path": "server/cloudflare/src/account-mail.js",
+      "sha256": "773f3129b0ad4b79b0791db3b27f284f2986872d7b42f3f142c00c3b73142606"
+    },
+    {
+      "path": "server/cloudflare/src/activity-admin-ui.js",
+      "sha256": "8595e191ebf424dab9c895189f30dee52fcc3b9b44966509302b50f8de898123"
+    },
+    {
+      "path": "server/cloudflare/src/activity-admin.js",
+      "sha256": "81c44a2d723d27169da1ee0decec41d521cd33953c5be561fce03193aebeed14"
+    },
+    {
+      "path": "server/cloudflare/src/admin-page.js",
+      "sha256": "27f9d65ebcd44d83615286126301b4617dcb77bcd101c169a257cce45819ee23"
+    },
+    {
+      "path": "server/cloudflare/src/auth.js",
+      "sha256": "392a02336631f563e4d3926b8c7386e242735cdf66fdf737956ef0b82527bb49"
+    },
+    {
+      "path": "server/cloudflare/src/battle-outcome.js",
+      "sha256": "318380344d3368d7d51b1708d1bbbd1a54eb8c0acf288df9323bf0ce948b5ef8"
+    },
+    {
+      "path": "server/cloudflare/src/battlefield-maps.js",
+      "sha256": "8bd625e78235932479bfdef3ec17b4a7cfe648caf974a044dc9b33ea2d90bdd7"
+    },
+    {
+      "path": "server/cloudflare/src/battlefields.js",
+      "sha256": "9a2c283afd5fbf82237ea24004dedf9460c25f97ba483703274a3f1536680102"
+    },
+    {
+      "path": "server/cloudflare/src/block-bans.js",
+      "sha256": "241aabbe5a3282e1480b7ebfc8deaa4f5cb89e9baa28aea0a2c2a10abd965742"
+    },
+    {
+      "path": "server/cloudflare/src/block-catalog.js",
+      "sha256": "274f45e08ce5fd5abb55bd8d06e9208a05b7d7757982e4000f11638fb9966c91"
+    },
+    {
+      "path": "server/cloudflare/src/blueprint-cleanup.js",
+      "sha256": "0b0913bcfd3f05b8e7ee87720190660dcefdde4a9d7bb13b6f283d579d8fe8b4"
+    },
+    {
+      "path": "server/cloudflare/src/blueprint-inspector.js",
+      "sha256": "02c817593e5c0fd751e47becc246b2fefe3315b50b4691be7675254fbfe37c97"
+    },
+    {
+      "path": "server/cloudflare/src/blueprint-store.js",
+      "sha256": "f2e4668b0375e85a9a16ca713a0d350c4804acca91c44fe9020e651ca0288575"
+    },
+    {
+      "path": "server/cloudflare/src/campaign-presets.js",
+      "sha256": "e899afe765e17afb1985dfdd06c369f56a3dff6e44892f610b93fdcea31f2da3"
+    },
+    {
+      "path": "server/cloudflare/src/chat-admin-ui.js",
+      "sha256": "2bf2bc6ac23ee2ccc399da3c47a77c43c8296230931811ab2c992ec278fce0d7"
+    },
+    {
+      "path": "server/cloudflare/src/chat-room.js",
+      "sha256": "46e946a5e2aa973fc129e88a720cd46476ed437935ff26e4f3d4a94c600fee64"
+    },
+    {
+      "path": "server/cloudflare/src/chat.js",
+      "sha256": "1b837392791be0b7cbb76ce4a80b2043d6f009b6a8daef5fee3b3764bfb81fd0"
+    },
+    {
+      "path": "server/cloudflare/src/client-policy.js",
+      "sha256": "92d5b78ec578e2ba1bf0a3edc75a98066845a099647d63248df5e201f6fcd2e9"
+    },
+    {
+      "path": "server/cloudflare/src/email-recovery.js",
+      "sha256": "55317a35b0de8f3042301824aa33c72d5cc4683dc5a03fd58a77165962759b58"
+    },
+    {
+      "path": "server/cloudflare/src/index.js",
+      "sha256": "67de9482d6ab0083af9f686a637055ae59ef976101706bcca4a020a7d0acebac"
+    },
+    {
+      "path": "server/cloudflare/src/map-picker.js",
+      "sha256": "df164ac4315508fc904f001eeed39b2bd5da57297cab42e620a67885cf56c7dc"
+    },
+    {
+      "path": "server/cloudflare/src/match-results.js",
+      "sha256": "70ab4860f38b18c34850989e1257d845c1585ef54677bf716d029a87984ae2a4"
+    },
+    {
+      "path": "server/cloudflare/src/opponent-admin.js",
+      "sha256": "a6f3e6c0fbf97248a24e8cc6e76b8af6f787ef03f18dbe2bb4297e948ba54d97"
+    },
+    {
+      "path": "server/cloudflare/src/shared.js",
+      "sha256": "82c568d0b5709eae3fe095d7c938817410c82e0c643dbb669201b4e78f15c0b7"
+    },
+    {
+      "path": "server/cloudflare/src/storage-admin-ui.js",
+      "sha256": "c5aa788074d759211ad17c9976c438754270723ddd448a59e6a3ef76009bfe1e"
+    },
+    {
+      "path": "server/cloudflare/src/storage-admin.js",
+      "sha256": "406811ce12981061faadb58accca21f998467f60f9131780f35753a164f4556b"
+    },
+    {
+      "path": "server/cloudflare/src/system-opponents.js",
+      "sha256": "46c1420718ae64c436b1c04e9c0b579c74997137c05d17f53b057fab48eedf70"
+    },
+    {
+      "path": "server/cloudflare/src/tournaments.js",
+      "sha256": "5ae87ae64997515b7033f692cc11fefa0ed149c0bd0ad4baae38397c5d67512e"
+    },
+    {
+      "path": "server/cloudflare/storage-migrations/0001_blueprints.sql",
+      "sha256": "9fe649958f3411141909ccb26eb48ddfe5894f7394e16cec915a242d3d9dff2f"
+    },
+    {
+      "path": "server/cloudflare/test/battle-outcome.test.mjs",
+      "sha256": "4eb5ed622784a2d5cdfdb9dab191f24564dc09bbfb8c437628c80b4b018ee9ee"
+    },
+    {
+      "path": "server/cloudflare/test/block-inspections.json",
+      "sha256": "cc4f6f4f2553a5215f85de4ac42e4aa2437fa353d4f9eb70d51bec3655ae348e"
+    },
+    {
+      "path": "server/cloudflare/test/block-inspector.test.mjs",
+      "sha256": "e7a6182b6cfb38f43381f7dacc211c9cbe22486bb6c84a177af1454ba0cb7494"
+    },
+    {
+      "path": "server/cloudflare/test/chat-concurrency.test.mjs",
+      "sha256": "9146e820e221b63b248e8d7e1e40a30ed93bece4e7ac73da7b70586525d6b6b9"
+    },
+    {
+      "path": "server/cloudflare/test/chat-viewer.test.mjs",
+      "sha256": "2e5b17f8a671523e56b46510dedef682446ab24323c5b6c9bc2b24e11b921c96"
+    },
+    {
+      "path": "server/cloudflare/test/chat.test.mjs",
+      "sha256": "4bcc36c7d360a96eea3c23e9ccfbf127016bd85eb2fa6c2a18a9f2e64f7c012e"
+    },
+    {
+      "path": "server/cloudflare/test/email-recovery.test.mjs",
+      "sha256": "fc7ad125c3ad13e3b098dcc194fcbdd041592b7884b5d86274ffc08ea875dbc0"
+    },
+    {
+      "path": "server/cloudflare/test/google-mail-relay.test.mjs",
+      "sha256": "0b43247ae0fa90caa2f041dd63d05a95361bcfb2049b080fb9733311a02b3faf"
+    },
+    {
+      "path": "server/cloudflare/test/google-relay-fixture.mjs",
+      "sha256": "c0caf3b8074cc90170b3fc83be5b3d3b68a71fd89d3dd6f87be5463aebc60fa3"
+    },
+    {
+      "path": "server/cloudflare/test/health-outcomes.json",
+      "sha256": "be10860403cb2f31a763f9bf69e10208b084705f7663792fe0da313777f3e2ed"
+    },
+    {
+      "path": "server/cloudflare/test/map-picker.test.mjs",
+      "sha256": "9481ed76b45c9e2a2f7d6b094a4ed382ce9af1560aabc74f77c0eba92f796534"
+    },
+    {
+      "path": "server/cloudflare/test/material-outcome.test.mjs",
+      "sha256": "98347e5a90055681c6383668c897a113f2bd0e10ba2bb8e7efc42362b48200da"
+    },
+    {
+      "path": "server/cloudflare/test/material-outcomes.json",
+      "sha256": "af76d6d992c4434cfde7ce5cb7f93ef24e7cd9127afcc4e37b4868c6d98e189c"
+    },
+    {
+      "path": "server/cloudflare/test/storage.test.mjs",
+      "sha256": "579724c1e266cff9fcf53a817501e579ec592f940c7c684c2e00e7dc64e2add7"
+    },
+    {
+      "path": "server/cloudflare/test/worker.test.mjs",
+      "sha256": "ab85f4c595e5da9955befa317a76843239ca3c210f8ccf0ec7e08d4326417154"
+    },
+    {
+      "path": "server/cloudflare/tools/backup.mjs",
+      "sha256": "e643ef95b54df9fd04b87a69dfe673996afb08673adb1e77f8ed62515239085c"
+    },
+    {
+      "path": "server/cloudflare/tools/blueprint-sql.mjs",
+      "sha256": "60207323881bc2d9c88d39329d02c144181405d462305654cc80ad2e88e544e9"
+    },
+    {
+      "path": "server/cloudflare/tools/build-battlefield-maps.py",
+      "sha256": "4187e6fe01522d27b2c98b132153a076698f29f7e560cdc73185fe49fda37b43"
+    },
+    {
+      "path": "server/cloudflare/tools/check-admin-bundle.mjs",
+      "sha256": "f662cede640c1777fa8abf665d1c39f3a7bbdfa941275028ef618b999fb9dd84"
+    },
+    {
+      "path": "server/cloudflare/tools/common.mjs",
+      "sha256": "3cbd0cc27cbd66cf23e50015766e9f4c1879573fae13b3d80a716bb7a834aa5a"
+    },
+    {
+      "path": "server/cloudflare/tools/configure.mjs",
+      "sha256": "7d762e5f98a867d08487320ee48fdb1d667917d282e8295da497198eff24c468"
+    },
+    {
+      "path": "server/cloudflare/tools/deploy.mjs",
+      "sha256": "6eca1feece1154899f1b02feae1edc33ee1bc803aebb7682b7618d1323058cfd"
+    },
+    {
+      "path": "server/cloudflare/tools/export-block-catalog.mjs",
+      "sha256": "fa891598f168ff69722586a65bbab03215c5a3fdaaa4f2f34f76c7c3a97e6529"
+    },
+    {
+      "path": "server/cloudflare/tools/inspect-blueprint.mjs",
+      "sha256": "c11d38630e2315f257716c649622db1d8b942b64a14ba21316b47251f2e9b781"
+    },
+    {
+      "path": "server/cloudflare/tools/migration-statements.mjs",
+      "sha256": "230c0fe42d57245c643bcfa6bd558e75a6470c17d14e23875155089973ed79df"
+    },
+    {
+      "path": "server/cloudflare/tools/serve-local-test.mjs",
+      "sha256": "e0372737c0d937e3d0b4dbfeb2bbb77a56bbfbcc653840b70072f0776c77e6de"
+    },
+    {
+      "path": "server/cloudflare/tools/setup-local-auth.mjs",
+      "sha256": "76d5715e1962096b117df4aa57152f4f760b00386fe191ce59cde573c9ca8f68"
+    },
+    {
+      "path": "server/cloudflare/tools/storage-config.mjs",
+      "sha256": "a8ad58bfe3caa1d35635da195c1dc3f27bbfad2a4adf541fb0e5a1ee70961e70"
+    },
+    {
+      "path": "server/cloudflare/tools/storage-copy.mjs",
+      "sha256": "3e303750d3c27b1aedebbac439bdb12b4fe466fe47a0ec253d35cdbc876e5601"
+    },
+    {
+      "path": "server/cloudflare/tools/storage-d1.mjs",
+      "sha256": "e0952d98c700846343824f320e9a0ac690c913504b990f7db7ed463b005c3615"
+    },
+    {
+      "path": "server/cloudflare/tools/storage.mjs",
+      "sha256": "63e766b6525832638fe7df9385190eba5c8151107f76f1ab9b6b2a020fda1938"
+    },
+    {
+      "path": "server/cloudflare/wrangler.jsonc",
+      "sha256": "9ee6057a9d537cd9746ca7567102d29460990247e3a7df5f1a0b1ecd85d2c36c"
+    },
+    {
+      "path": "server/google-mail-relay/Code.gs",
+      "sha256": "becad81b9978a1c694d2d3680024f20711eb5a0a9bc6bd693407cfeb75eeb44c"
+    },
+    {
+      "path": "server/google-mail-relay/appsscript.json",
+      "sha256": "7c069b6dcf6162f9d49849362af5f675010a284dd0b74137b832c45a2c474b39"
+    },
+    {
+      "path": "src/AccountClient.cs",
+      "sha256": "7d75ffdc827f68891dd900c030ebe1effd16acd69a196dd756c5685af4bd8601"
+    },
+    {
+      "path": "src/AccountForm.cs",
+      "sha256": "84a66e21a8f7b6b4d77bb6d51f4eebf599c65f6967cd653c044f767874f441c1"
+    },
+    {
+      "path": "src/ArenaUi.cs",
+      "sha256": "5f1282082727a09b5de8344242015bb0557cbac1c73e78afc2c18e9b2ac36093"
+    },
+    {
+      "path": "src/Battle.cs",
+      "sha256": "0d3933c8c9629bbf17dc8c9007aca615a5e64ad5d2daf9747b44260755852044"
+    },
+    {
+      "path": "src/BattleMaterials.cs",
+      "sha256": "0dc3c84376ed2e93a94ee0e5ebe9c8df1bf502bb219832041e470df8272e85f1"
+    },
+    {
+      "path": "src/BattleOutcome.cs",
+      "sha256": "0af083a2e1010f7c97049e225ea9778506edcc90e376adee808108a6d94dd01d"
+    },
+    {
+      "path": "src/BattlefieldCanvas.cs",
+      "sha256": "996cfe79185d2daacd2e74e0d3c58f88930005b8db0e3808e2d460a47e824bdb"
+    },
+    {
+      "path": "src/BattlefieldRules.cs",
+      "sha256": "fce14857925c52e9b206c1519c16335051df3392ec4a4b2eddd34e20583bf7a9"
+    },
+    {
+      "path": "src/BattlefieldView.cs",
+      "sha256": "a5e8665c6964ddc7d8a8a6dcd4481e7cb931998cf941c9f4ac16a72c3613c4bf"
+    },
+    {
+      "path": "src/BlueprintBlocks.cs",
+      "sha256": "91867eb16b5cd043eacc50be7758cdb300b752419c9bc9eac4626be0ea222547"
+    },
+    {
+      "path": "src/BlueprintDownloadProgress.cs",
+      "sha256": "574da0750547444b5d35dc03b5ed0e52e7faf66e155e4912d118044b86b31ad2"
+    },
+    {
+      "path": "src/ChatClient.cs",
+      "sha256": "a307f2952c9d32066762592a0d576cc4573ea10b0c20045c96ebe289641b821a"
+    },
+    {
+      "path": "src/ChatUi.cs",
+      "sha256": "85045ba174a5e5e708834054d0d41fa24cf957f3ce17fa7a531bb5ee2f2f4f15"
+    },
+    {
+      "path": "src/ChatWire.cs",
+      "sha256": "ebd65e438cb30b30da3835049edcdc2e2e63b4c3781accb7741e79b9e070e936"
+    },
+    {
+      "path": "src/Client.cs",
+      "sha256": "a456c41a9fcce890fd0884aa90dcbc45d9dc34222d29756b955a07dfeaf27327"
+    },
+    {
+      "path": "src/ClientStorage.cs",
+      "sha256": "2a2404efbae6580074802709334e719719842a3811c50828eedffe7f6fae8122"
+    },
+    {
+      "path": "src/FleetClient.cs",
+      "sha256": "f72f65d159ec4e5e5c43ecc1daac6439df1443cd6c5ba7c6d5425ddb780b319b"
+    },
+    {
+      "path": "src/FleetPlan.cs",
+      "sha256": "0d8bc1e684a115313ad205cd07cb1fcab107350e7097c6336e40d0fe9ca7d8df"
+    },
+    {
+      "path": "src/FleetPresentation.cs",
+      "sha256": "2d79ed3093c156dfe5b012aa885146ce6495fe4562425fccc2bbbce31b42fc9a"
+    },
+    {
+      "path": "src/FormationCanvas.cs",
+      "sha256": "6ecf64f94d922484ed1b25416bf7b3e0b7a424416ca324924b5716cfc464a708"
+    },
+    {
+      "path": "src/FormationMap.cs",
+      "sha256": "a864f17425d88e23d1154647d389dbabe7ee124e7c097bd404d13630527c3a23"
+    },
+    {
+      "path": "src/InteractionGuard.cs",
+      "sha256": "ed1c75e3733956350b4e0ac08be7008d48afeab7ef4173f5abde6c2fbb41ac05"
+    },
+    {
+      "path": "src/Language.cs",
+      "sha256": "d6a2ffc38b48162935beeaa8cc96691c477c164d334850990fdc482745e80071"
+    },
+    {
+      "path": "src/LanguageFlags.cs",
+      "sha256": "56786cb45f369ac6c39caf01bbb68a13bcf8272804c33ba3dd08fb9762fb908a"
+    },
+    {
+      "path": "src/MatchStorage.cs",
+      "sha256": "7f0b913196e83be6c2d494048059d1425575b4f5aac17ce12c8a05620e99a9ea"
+    },
+    {
+      "path": "src/ModInformation.cs",
+      "sha256": "f544081d8d0861b93ba9b00e58664d6b11f32e50ddd6c23c3cbcc31983d95a15"
+    },
+    {
+      "path": "src/NativeUi.cs",
+      "sha256": "bffe975ed67a633035aee110cc8517bcfeb167e3cce9a0553aef374b5d8069f8"
+    },
+    {
+      "path": "src/NicknameColor.cs",
+      "sha256": "182e156d7bb4bd3037fcc69290af4882efb056182a74c115f1b2c86d71385336"
+    },
+    {
+      "path": "src/NicknameColorUi.cs",
+      "sha256": "f68243a8d9d2222c3ea45cc5d28fd6f5613b68a6b1cf270f989da1a06e90cf61"
+    },
+    {
+      "path": "src/Plugin.cs",
+      "sha256": "e97e197092db87c6cd8096fff31048134e1c08ab2ab5b9dbe57a0509dde33662"
+    },
+    {
+      "path": "src/RankCards.cs",
+      "sha256": "88aefe89681d433565fdc42524f5dbd8d0f2a29671c140a1e4e014624c7837c9"
+    },
+    {
+      "path": "src/RankKeyOptions.cs",
+      "sha256": "460a4024a0377851c89606b918727e47aaba34626e3d2e897dbead52c0d3a764"
+    },
+    {
+      "path": "src/RankKeys.cs",
+      "sha256": "7e1d52aaf35dfe5aefdf5b4be7d178cb895c43b6f69c59ab31b80d65cda2bf27"
+    },
+    {
+      "path": "src/RankTransport.cs",
+      "sha256": "509b2d670a25181e1d7b60f29e49d9cf694124645b01089d7544da135a2a3dcd"
+    },
+    {
+      "path": "src/RankedBattles.csproj",
+      "sha256": "df11583bec5cc200e1f710cb468e6316276f8cd0a1484e9d519c9fbf2fe73a60"
+    },
+    {
+      "path": "src/RankingPage.cs",
+      "sha256": "5acb2b66f6286d986054e5b775b8ddc1ebed91f42f39b36d892bf009341a491f"
+    },
+    {
+      "path": "src/ResultClient.cs",
+      "sha256": "3c7e877bd8d0fe9aef16cf811bfda5204f108bee9a0f408d0ad3c65715cbe514"
+    },
+    {
+      "path": "src/Spectator.cs",
+      "sha256": "006340f9f866e0ab3d3a2dd80aca12605ce9995da2392c9037b064278263ad07"
+    },
+    {
+      "path": "src/WorkshopVersion.cs",
+      "sha256": "b5c845a106a33fdbf7f7c86d592fe33b880062e0d4e8984b9c1bda77221d7a08"
+    },
+    {
+      "path": "tests/BattleOutcome/BattleOutcome.csproj",
+      "sha256": "1ea93104952b72f4d3c0944ae17579fc422754ffa6c5e33a429a5faed231d0f2"
+    },
+    {
+      "path": "tests/BattleOutcome/Program.cs",
+      "sha256": "4062d250f7425f4c5fb4b48736ff007d30c84ea8e1d67e019c386f968aa326fb"
+    },
+    {
+      "path": "tests/BlockInspector/BlockInspector.csproj",
+      "sha256": "0c3509366db8483b907ca1e6d9f4fb129fe7a2b307cdc7c9c4c3237188bca223"
+    },
+    {
+      "path": "tests/BlockInspector/Program.cs",
+      "sha256": "c546f4ed7e182fc538590ead68aca46083f896b35bc18949ae0194e2bb5e3078"
+    },
+    {
+      "path": "tests/CalibrationProbe/CalibrationProbe.csproj",
+      "sha256": "92b814e970e931d8aa25f7107bba3415c7668338b623dcc905445e1cfa454d76"
+    },
+    {
+      "path": "tests/CalibrationProbe/Plugin.cs",
+      "sha256": "1551adc78ea084a95425b05dd88dff07b8196920264ec8d8d9ce450c35fa9cfb"
+    },
+    {
+      "path": "tests/CampaignCatalog/CampaignCatalog.csproj",
+      "sha256": "17aba1189eeb1dac376662f933c63466d408b1fb4b25b2570b47f194d2938d0f"
+    },
+    {
+      "path": "tests/CampaignCatalog/Plugin.cs",
+      "sha256": "21d178edbb47bc40b417e1241f792476877061c6d0dff50c0d8ee25191050da8"
+    },
+    {
+      "path": "tests/Capture-Workshop.ps1",
+      "sha256": "479852633d2023645a25520561a7ffaf1c39c608f143dea6ee8eb3149b29b1ff"
+    },
+    {
+      "path": "tests/ClientStorage/ClientStorage.csproj",
+      "sha256": "39fa2d5720b5720da0b1570054a17c3127dada81f038a4479051961440552f13"
+    },
+    {
+      "path": "tests/ClientStorage/Program.cs",
+      "sha256": "3ccdac186712ba028964f4fa1b625c0104e901f8d4bfb9adeed9f9c9fd7eca06"
+    },
+    {
+      "path": "tests/Export-CampaignCatalog.ps1",
+      "sha256": "bf96c272cebfc4dfe5c80c2f96d168bcb51a12c08dd0d73b0db7730fd5ae3cef"
+    },
+    {
+      "path": "tests/Export-Maps.ps1",
+      "sha256": "ed56cf094f01bdede02106fe8735abdea0226e24fa84a4718723bd9d9264484d"
+    },
+    {
+      "path": "tests/FleetEditing/FleetEditing.csproj",
+      "sha256": "48448fd57aef5a919afb3a5e52419e1fc3697606c35bc5f8b99c3ae6e73cce28"
+    },
+    {
+      "path": "tests/FleetEditing/Program.cs",
+      "sha256": "01e02d762b55892a2f97c88aa5e5e3ec2d780014d40fa8e11c19ef426ea50b95"
+    },
+    {
+      "path": "tests/FleetProbe/EditorProbe.cs",
+      "sha256": "4a9b08733eb61f59cc51e7d554f0d5c81799568f1d79a8019d4e28bdf3533c47"
+    },
+    {
+      "path": "tests/FleetProbe/FleetProbe.csproj",
+      "sha256": "0c07d4c9fb0dacaf42fc701a20d861f1e8600e2c570aa3768453f113f528e3ef"
+    },
+    {
+      "path": "tests/FleetProbe/GroundLoadProbe.cs",
+      "sha256": "bbd524f4eb135791c5c6276a9f11aa974ceb50282c4c6d45ac1b06602b14286e"
+    },
+    {
+      "path": "tests/FleetProbe/InteractionProbe.cs",
+      "sha256": "ef7b6a7f7a87b9f937f1451d9e009eb848ae2237572759b68b218afc2e8adec3"
+    },
+    {
+      "path": "tests/FleetProbe/KeyProbe.cs",
+      "sha256": "d558975a5da5d026bf7d241b024c0a1b3ebc5ad83bc8152bdf89e679b688a206"
+    },
+    {
+      "path": "tests/FleetProbe/MaterialProbe.cs",
+      "sha256": "4202ebf321e52611c0a098c4e01ab39ad497552de085be48289a0f89968dfc7c"
+    },
+    {
+      "path": "tests/FleetProbe/Plugin.cs",
+      "sha256": "daffaf84c4e312859498edf1ace2c5be9f02670f753af3f299ed2db9b988e5bf"
+    },
+    {
+      "path": "tests/FleetProbe/ResultRecoveryProbe.cs",
+      "sha256": "08825d9a5e8ad17ae7ad4f43b6a2844a70fbdbab2678bc435d2f2b9a74f96427"
+    },
+    {
+      "path": "tests/KeyBindings/KeyBindings.csproj",
+      "sha256": "8b504a72a7c5faffd20f1274d3b5db55bdeb0cf001296f13796500a8f7c7cfe8"
+    },
+    {
+      "path": "tests/KeyBindings/Program.cs",
+      "sha256": "0c08a9c628edb14369e31d5e415ac96ce0b5a2e260c0e04d432a9d3b4455f275"
+    },
+    {
+      "path": "tests/Languages/Languages.csproj",
+      "sha256": "1ea02f867a9ca1928a61fcb720188ea1b7b0612bb8fc6224ac09a28c501669c5"
+    },
+    {
+      "path": "tests/Languages/Program.cs",
+      "sha256": "a4b04c894c089f6c49cc07f7a5131d3afad6d80d316a983508d759842e35a48f"
+    },
+    {
+      "path": "tests/MapExport/MapExport.csproj",
+      "sha256": "17aba1189eeb1dac376662f933c63466d408b1fb4b25b2570b47f194d2938d0f"
+    },
+    {
+      "path": "tests/MapExport/Plugin.cs",
+      "sha256": "cb3c5fedc00f2c1ce5693b7e1a45580f657b30bfb759b23628bcfc12c623dc98"
+    },
+    {
+      "path": "tests/MissingBlockProbe/MissingBlockProbe.csproj",
+      "sha256": "89db8a6b9cd3b68d6deb4c9ffbba7570a41651de050a76448f4eae2fa61ee27d"
+    },
+    {
+      "path": "tests/MissingBlockProbe/Plugin.cs",
+      "sha256": "46eb0fbba1de4df96330547eb7b0b05b6635d1a3cc5b4442719ac5ace3719c95"
+    },
+    {
+      "path": "tests/RankingProbe/Plugin.cs",
+      "sha256": "1c6a4dbaabed3ba834937939943afcaf546cde3f25a1eafbf641226a3f4d178c"
+    },
+    {
+      "path": "tests/RankingProbe/RankingProbe.csproj",
+      "sha256": "89db8a6b9cd3b68d6deb4c9ffbba7570a41651de050a76448f4eae2fa61ee27d"
+    },
+    {
+      "path": "tests/RecoveryProbe/Plugin.cs",
+      "sha256": "87cff0f490feb93713534c671e5113e142dee7b60e35626fe2d3ef48da8dba9e"
+    },
+    {
+      "path": "tests/RecoveryProbe/RecoveryProbe.csproj",
+      "sha256": "e0f537ace4b70f63f7412b93797ae1c8b7ea0023b40b72f1a63ee3a518576194"
+    },
+    {
+      "path": "tests/Run-Calibration.ps1",
+      "sha256": "ac9fa37fd79dc5c80c1121553c4be80db2482508e86797d8256eac24f9eabf86"
+    },
+    {
+      "path": "tests/Test-AccountRecovery.ps1",
+      "sha256": "773c9f01417bea8b86f5e6f4d6187dd3d5c5cacf035aba1f07bfe3ae89363cbd"
+    },
+    {
+      "path": "tests/Test-FleetBattle.ps1",
+      "sha256": "add05e67bf9ed466b4f1bd44675e96448c2f9cecea5e498e123658d7b18f13a7"
+    },
+    {
+      "path": "tests/Test-MissingBlocks.ps1",
+      "sha256": "136ba4841344b4e879cd7d76ff3b71adcd4f3152bcb059eaa8f3a5e358adad01"
+    },
+    {
+      "path": "tests/Test-RankingPages.ps1",
+      "sha256": "74387715735421a00051f0cb6a8934b37df4849a392c039319faf1b30281af17"
+    },
+    {
+      "path": "tests/Test-VersionNotice.ps1",
+      "sha256": "79db515fc2ffd5fb72903feba96a1d4fac9286041f4764517fbfb1a6a963ad5d"
+    },
+    {
+      "path": "tests/TransportSmoke/Program.cs",
+      "sha256": "98d8cbd1a68b6982aacf887b221e70d437314d4613bbb55d7621b44c63030c72"
+    },
+    {
+      "path": "tests/TransportSmoke/ResultWireProbe.cs",
+      "sha256": "6f67fe48435a11b76381a92dd230cccb6e65b3efa39256692c1e85c150376f5d"
+    },
+    {
+      "path": "tests/TransportSmoke/TransportSmoke.csproj",
+      "sha256": "af7ca5ec59a9e4d4eb6c597d776e34bb55443407237c5850a1935dd93e79f99f"
+    },
+    {
+      "path": "tests/VersionProbe/Plugin.cs",
+      "sha256": "6767c9125582e4a02858ba260ac9f9b7878983c0600c12b7c7011ec370d270ce"
+    },
+    {
+      "path": "tests/VersionProbe/VersionProbe.csproj",
+      "sha256": "285d9a19f3e851c88bdf543631bb3445488fbcd530bd492ab4b30d7cf018471a"
+    },
+    {
+      "path": "tests/WorkshopCapture/Plugin.cs",
+      "sha256": "fae4699a9b6f1d32b809f63909c5297fb82e1e174c379c9c81c05353921b8379"
+    },
+    {
+      "path": "tests/WorkshopCapture/WorkshopCapture.csproj",
+      "sha256": "341b0568a6afb1027002a55dde48c6227ac27f49fcd73f8a59fa062a60ae9e88"
+    },
+    {
+      "path": "tests/analyze_calibration.py",
+      "sha256": "81f30a1b9c958a234e0cdfbb6e6362ea0471b114dbbd7cdddc3b6daa3cd1b68e"
+    },
+    {
+      "path": "tests/serve_fixture.py",
+      "sha256": "6eaf8a1fadf89ce8dd9825f53e27ecdeb11e8b682f30b9c241b882a292dd2965"
+    },
+    {
+      "path": "tests/test_calibration.py",
+      "sha256": "5aaadfe041f1715b308efee39b01582d64e39bd90b145d7765459b4990fd83cb"
+    },
+    {
+      "path": "tools/Localize/Localize.csproj",
+      "sha256": "83d17d635674633a66c8fcb23647613f97f3ff492d344a05cfab0af6e636c0d2"
+    },
+    {
+      "path": "tools/Localize/Make-Flags.ps1",
+      "sha256": "d302ce6ce5e89974a3f4298e9de0ff5d771adbda95eb8f3edee2455fb161c902"
+    },
+    {
+      "path": "tools/Localize/Program.cs",
+      "sha256": "54b3fb8cfa06a192b7f61985fbcf1633cc88e0aa0e8fbf33cbb09f213b27e1fb"
+    },
+    {
+      "path": "tools/Localize/build_catalog.py",
+      "sha256": "2b7da22cbfd640e3c9ab52009a2731c3fe2f9d46d1bf234d06445bd30899f0c9"
+    },
+    {
+      "path": "tools/Localize/ranking-pages.json",
+      "sha256": "a3e12437b86f5b5ff1e2565645b611ffaf6d02bfab4b24d66222a4017d6bde4e"
+    },
+    {
+      "path": "tools/Localize/result-status.json",
+      "sha256": "0351d67bee709a13f00b38f7df2cfe083534a9ab9cd7fb65af8474fc26175794"
+    },
+    {
+      "path": "tools/Localize/server-errors.tsv",
+      "sha256": "b7f4d5a438af87d719eae90244208a220e8e4d9df8a937b4b80a3c582e173d01"
+    },
+    {
+      "path": "tools/Localize/strings.json",
+      "sha256": "1cd6d2013a8685a8b5386a5ff0ee117c0797e62afc9af5915026f6d4e714cded"
+    },
+    {
+      "path": "tools/Localize/translations.tsv",
+      "sha256": "f6bb5eaf34a8d4f7891362ecd51422c96c12ff456948d7af233593356d4ed8fd"
+    },
+    {
+      "path": "tools/Localize/version-policy.json",
+      "sha256": "00e44715afd5e0982b1cb7cd2496f8e2b746ed86321e7620ae3c714609338b46"
+    },
+    {
+      "path": "tools/Publish-Workshop.ps1",
+      "sha256": "fc2491c768f364d297e3afcc77000acc5b4826ac58821f67e110c54f678391b2"
+    },
+    {
+      "path": "tools/WorkshopPublisher/Plugin.cs",
+      "sha256": "f38077e14b48e10c92585656b8902b3e277fc7a217fac92bba79aa3a9ccf13d7"
+    },
+    {
+      "path": "tools/WorkshopPublisher/WorkshopPublisher.csproj",
+      "sha256": "a742c4ab2cc03b51bb03611e1651653e312c273035ca93dbd85e128e17e2a255"
+    },
+    {
+      "path": "tools/check-workshop-gallery.mjs",
+      "sha256": "8d9b1aeccd57200ab13f3963583a773b7c2f9331185532c0430c0750afe568be"
+    },
+    {
+      "path": "tools/check-workshop-gallery.test.mjs",
+      "sha256": "0bda3c2fea2157d0699328fd8caa065dbd528b2728c416554d0d1c39439c7eb1"
+    },
+    {
+      "path": "workshop/changelog-0.7.7.en.txt",
+      "sha256": "d89cf39653327e3bf3e878b81f74573ec9f3b330c0f962c4a3f92c97007e861b"
+    },
+    {
+      "path": "workshop/description.en.bbcode",
+      "sha256": "d6c51f74e92905d9d0325d94eeb47dd712aedb42ec0b2078d0cfbd9a4f366ac1"
+    }
+  ]
+}

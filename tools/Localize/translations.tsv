@@ -1,0 +1,325 @@
+0	Sign in to the account that started the saved match.	保存された試合を開始したアカウントでログインしてください。
+1	Creating account…	アカウントを作成中…
+2	Checking account…	アカウントを確認中…
+3	Sign in to the account used for the saved match.	保存された試合と同じアカウントでログインしてください。
+4	Signing out…	ログアウト中…
+5	Signed out.	ログアウトしました。
+6	Username: 8–32 characters; letters, digits and _ . -	ユーザーID：8～32文字、英数字と _ . -
+7	Password: 8–32 characters.	パスワード：8～32文字。
+8	Nickname: 2–24 characters; letters, digits, spaces and _ . -	ニックネーム：2～24文字、文字・数字・空白と _ . -
+9	Passwords do not match.	パスワードが一致しません。
+10	Spectator	観戦
+11	Ranked spectator	ランク戦の観戦
+12	Camera and vehicles	カメラと機体
+13	Switch camera	カメラ切替
+14	Battle continues while this menu is open.	メニューを開いても戦闘は続きます。
+15	Resume	戦闘に戻る
+16	Close	閉じる
+17	Overview	全体表示
+18	Free camera	自由カメラ
+19	Top view	上から見る
+20	Use the game's camera controls for orbit, zoom and relative movement.\nF6 Free · F7 Previous · F8 Next · F9 Top	ゲーム標準のカメラ操作で旋回・ズーム・相対移動できます。\nF6 自由 · F7 前の機体 · F8 次の機体 · F9 上から
+21	Yours · 	自分 · 
+22	Opponent · 	相手 · 
+23	Select vehicle	機体を選択
+24	 · Lost	 · 撃破
+25	Follow vehicle	機体を追跡
+26	Options	設定
+27	Display, sound and controls	画面・音声・操作
+28	Ranked results	ランク戦の記録
+29	Fleet and results	艦隊と戦績
+30	Surrender	降参
+31	Confirm to concede	確認後に敗北として記録
+32	Main menu	メインメニュー
+33	Return	戻る
+34	Wait for the current scene transition to finish.	画面の切替が完了してから開始してください。
+35	This match uses an old format. Surrender and find a new match.	古い形式の試合です。降参して再度マッチングしてください。
+36	 · Preparing battlefield…	 · 戦場を準備中…
+37	Download the fleet blueprints again.	艦隊のBPを再取得してください。
+38	Vehicle	機体
+39	Vehicle cost differs from the submitted value: 	現在の機体コストが提出時と異なります：
+40	Fleet spawn cost and supplies do not match the event budget.	機体コストと補給資源が大会の予算に一致しません。
+41	Event coordinates do not fit the installed world.	大会の座標がインストール済みのワールド範囲外です。
+42	Could not load the vehicle blueprint.	機体のBPを読み込めませんでした。
+43	Formation is outside the map. Adjust event coordinates or formation.	配置がマップ範囲外です。大会の座標または陣形を修正してください。
+44	Battlefield preparation timed out. Try again.	戦場の準備がタイムアウトしました。再試行してください。
+45	Vehicle spawn failed. Ratings were not changed.	機体を生成できませんでした。レーティングは変更されていません。
+46	Watching battle	戦闘を観戦中
+47	Battle interrupted. Restart this match before its deadline. Surrender or expiry counts as a loss.	戦闘が中断されました。期限内に同じ試合を再開してください。降参または期限切れは敗北になります。
+48	Terrain	地形
+49	Battlefield centre and nearby terrain	戦場の中心と周辺地形
+50	Map unavailable	マップを読み込めません
+51	World · N ↑	全体マップ · 北 ↑
+52	Battlefield · 8×	戦場周辺 · 8倍
+53	+ Centre · Blue: water · Green/brown: land	+ 戦場中心 · 青：水域 · 緑・茶：陸地
+54	Battlefield rules are missing.	戦場のルールがありません。
+55	Unsupported world. Neter or AOTE is required.	未対応のワールドです。NeterまたはAOTEが必要です。
+56	Neter	Neter
+57	 coordinates must be between 0 and 	の東・北座標の範囲は0～
+58	 sectors.	区画です。
+59	Battlefield coordinates are outside the map.	戦場の座標がマップ範囲外です。
+60	Unsupported result policy. Update the mod.	未対応の判定方式です。MODを更新してください。
+61	Could not calculate fleet health.	艦隊の耐久率を計算できません。
+62	Invalid battle duration.	戦闘時間が正しくありません。
+63	The battle has not ended yet.	戦闘はまだ終了していません。
+64	Surrender · Loss	降参・敗北
+65	No result submitted · Loss	結果未提出・敗北
+66	Opponent surrendered · Win	相手が降参・勝利
+67	Opponent timed out · Win	相手の期限切れ・勝利
+68	Judgment · Win	判定勝ち
+69	Judgment · Loss	判定負け
+70	Elimination · Win	全滅勝ち
+71	Elimination · Loss	全滅負け
+72	Mutual elimination · Draw	同時全滅・引き分け
+73	Time limit · Draw	時間切れ・引き分け
+74	Win	勝利
+75	Loss	敗北
+76	Draw	引き分け
+77	Final health · Yours 	終了時の耐久率 · 自分 
+78	% / Opponent 	% / 相手 
+79	Blueprint block check failed: 	BPブロック検査失敗：
+80	 Use a blueprint saved again in the game.	 ゲームで保存し直したBPを使用してください。
+81	Ambiguous fields found.	曖昧なフィールドがあります。
+82	Extra data after JSON.	JSONの後に余分なデータがあります。
+83	Could not read JSON.	JSONを読み込めません。
+84	Blueprint / ItemDictionary is missing.	Blueprint / ItemDictionaryがありません。
+85	Invalid block dictionary.	ブロック識別一覧が不正です。
+86	Subconstruct structure or depth is unsupported.	サブコンストラクトの構造または深さが未対応です。
+87	Invalid BlockIds / SCs structure.	BlockIds / SCsの構造が不正です。
+88	Too many blocks to inspect.	ブロック数が検査上限を超えています。
+89	Unrecognized block ID.	識別できないブロックIDがあります。
+90	Too many block types to inspect.	ブロック種類数が検査上限を超えています。
+91	Invalid subconstruct structure.	サブコンストラクトの構造が不正です。
+92	No blocks placed.	配置されたブロックがありません。
+93	Banned blocks: 	禁止ブロック：
+94	 blocks	個
+95	No banned blocks	禁止ブロックなし
+96	Banned: 	禁止：
+97	Download complete · 	BP取得完了 · 
+98	Downloading BP · Done 	BP取得中 · 完了 
+99	 · Verifying	 · 検証中
+100	Sign in to play.	ログインして開始してください。
+101	Account	アカウント
+102	Battle	戦闘
+103	Events	大会
+104	Connection failed. Try again.	接続に失敗しました。再試行してください。
+105	Sign in or register	ログインまたは新規登録
+106	Connecting to server…	サーバーに接続中…
+107	Enter an FTD Ranked server address.	FTDランク戦サーバーのアドレスを入力してください。
+108	A server supporting ratings for both participants is required.	両参加者のレーティング更新に対応したサーバーが必要です。
+109	Loading results…	戦績を取得中…
+110	Loading rankings…	ランキングを取得中…
+111	Select an event in the Events tab.	大会タブで参加する大会を選択してください。
+112	Finding an opponent…	対戦相手を検索中…
+113	Connecting	接続中
+114	Loading match blueprints…	試合のBPを取得中…
+115	Surrender?	降参しますか？
+116	This records your loss and your opponent's win, updating both ratings.	自分の敗北と相手の勝利を記録し、両者のレーティングに反映します。
+117	Surrender · Accept loss	降参・敗北として記録
+118	Continue	続行
+119	Connect to the server and account that recorded this result.	この結果を記録したサーバーとアカウントに接続してください。
+120	Submitting result…	結果を送信中…
+121	Ranked server	ランク戦サーバー
+122	Enter the server address.	サーバーのアドレスを入力してください。
+123	Server address	サーバーアドレス
+124	Use HTTPS. HTTP is allowed only for local testing.	HTTPSを使用してください。HTTPはローカルテスト専用です。
+125	Connect to a server.	サーバーに接続してください。
+126	Participant name	参加者名
+127	This name is used when creating an account on first connection.	初回接続時にこの名前でアカウントを作成します。
+128	Name	名前
+129	Loading events…	大会一覧を取得中…
+130	Loading event and submitted fleet…	大会と提出済み艦隊を取得中…
+131	Draft unreadable; submission restored	編集案を読み込めないため、提出済みの艦隊を復元しました
+132	Rules changed: resubmit fleet	ルール変更：艦隊を再提出してください
+133	Add blueprint to fleet	艦隊に機体を追加
+134	Vehicle limit reached.	機体数の上限に達しました。
+135	Could not read blueprint.	BPを読み込めません。
+136	Could not calculate vehicle cost.	機体コストを計算できません。
+137	Enter a whole number of zero or more.	0以上の整数を入力してください。
+138	Replace all copies of this blueprint	同じBPをすべて交換
+139	Replace selected vehicle blueprint	選択した機体のBPを交換
+140	Deployment limit reached.	配置数の上限に達しました。
+141	This spacing exceeds the formation area.	この間隔では配置範囲を超えます。
+142	Stored blueprint changed. Add the vehicle again.	保存されたBPが変更されています。機体を追加し直してください。
+143	Vehicle cost changed. Add this vehicle again.	機体コストが変更されています。機体を追加し直してください。
+144	Submitting fleet and formation…	艦隊と陣形を提出中…
+145	Submitted	提出完了
+146	Missing rule or fleet value: 	ルールまたは艦隊の値がありません：
+147	Invalid number: 	不正な数値：
+148	Could not find the vehicle to change quantity.	数量を変更する機体が見つかりません。
+149	Allowed quantity: 0–	指定可能な数量：0～
+150	 vehicles.	機。
+151	Select a vehicle to replace.	交換する機体を選択してください。
+152	Replacement exceeds the blueprint-type limit. Replace all copies or remove another type.	交換するとBP種類数の上限を超えます。同じBPをすべて交換するか、別の種類を削除してください。
+153	Check the event's vehicle limit.	大会の機体数上限を確認してください。
+154	Blueprint-type limit exceeded.	BP種類数の上限を超えています。
+155	Invalid blueprint hash.	BPハッシュが不正です。
+156	Spawn cost exceeds the team budget.	機体コストがチーム予算を超えています。
+157	 is outside the event's allowed range.	は大会の許容範囲外です。
+158	My fleet	自分の艦隊
+159	Fleet name: 1–40 characters.	艦隊名：1～40文字。
+160	Formation map	陣形配置図
+161	Top-down vehicle centres and headings. Select a number to inspect; drag to move in the editor.	機体の中心と方向を上から表示します。番号で選択し、編集画面ではドラッグで移動できます。
+162	↑ Enemy · H: altitude · °: heading	↑ 敵方向 · H：高度 · °：方向
+163	Width 	幅 
+164	Depth\n	奥行き\n
+165	m · Grid 	m · グリッド 
+166	m · Alt 	m · 高度 
+167	Ranked Battles	ランク戦
+168	Asynchronous battles	非同期ランク戦
+169	Events	大会
+170	Events and rules	大会とルール
+171	Sign in	ログイン
+172	Open account	アカウントを開く
+173	Refresh	更新
+174	Event list	大会一覧
+175	Open	受付中
+176	Locked	受付終了
+177	Closed	終了
+178	{0} · Budget {1:N0} · {2:0.#} min	{0} · 予算 {1:N0} · {2:0.#}分
+179	Selected	選択中
+180	Event rules	大会ルール
+181	Selected event	選択中の大会
+182	Locked	提出締切
+183	{0}\nBudget {1:N0} · Units {2} · BP {3}\nTime {4}s · Distance {5}m	{0}\n予算 {1:N0} · 機体 {2} · BP {3}\n時間 {4}秒 · 距離 {5}m
+184	No events	大会がありません
+185	Fleet	艦隊
+186	Vehicles and formation	機体と陣形の編集
+187	Drag or enter a value to adjust.	ドラッグまたは数値入力で調整します。
+188	Select an event first.	先に大会を選択してください。
+189	Fleet name	艦隊名
+190	1–40 characters; no rename cooldown	1～40文字・名前変更に待機時間なし
+191	Not submitted	未提出
+192	Submitted fleet	提出済み艦隊
+193	Unsaved changes · Matches use the submitted fleet	未提出の変更あり · 試合では提出済み艦隊を使用
+194	Spawn {0:N0} + Supply {1:N0} = Budget {2:N0}\nUnits {3}/{4} · BP {5}/{6}	機体 {0:N0} + 補給 {1:N0} = 予算 {2:N0}\n機体 {3}/{4} · BP {5}/{6}
+195	Drag to move · Shift: 10m · Alt: free · Esc: cancel	ドラッグで配置 · Shift：10m · Alt：自由 · Esc：取消
+196	Check: 	要確認：
+197	Rules changed: resubmit	ルール変更：再提出が必要
+198	BP / quantity replacement in 	BP・数量の変更まで 
+199	BP / quantity replacement available	BP・数量を変更できます
+200	Formation changes: no cooldown	陣形変更に待機時間なし
+201	Restore	元に戻す
+202	Restore submitted fleet	提出済み艦隊を復元
+203	Add blueprint	機体を追加
+204	Select blueprint	BPを選択
+205	Quantity	数量
+206	0: remove all	0：すべて削除
+207	Enter a quantity and apply. Existing positions are preserved.	数量を入力して適用してください。既存の配置は維持されます。
+208	Apply	適用
+209	Units	機体
+210	Select to edit	選択して編集
+211	X {0} / Z {1} / Alt {2} / Heading {3}°	X {0} / Z {1} / 高度 {2} / 方向 {3}°
+212	Unit {0}	機体 {0}
+213	Position and heading	位置と方向
+214	X {0}m	左右 {0}m
+215	Z {0}m	前後 {0}m
+216	Altitude {0}m	高度 {0}m
+217	Heading {0}°	方向 {0}°
+218	Replace BP	BPを交換
+219	Keep position	位置を維持
+220	Replace all copies	同じBPをすべて交換
+221	Keep positions	各位置を維持
+222	Duplicate	複製
+223	Add one copy	1機追加
+224	Remove	削除
+225	Remove selected unit	選択した機体を削除
+226	Grid	自動配置
+227	Arrange in rows	行と列に配置
+228	Columns {0}	列数 {0}
+229	Units per row	1行あたりの機体数
+230	Columns 1	列数 1
+231	Spacing {0}m	左右間隔 {0}m
+232	Between units	同じ行の機体間隔
+233	Row spacing {0}m	行間隔 {0}m
+234	Between rows	行と行の間隔
+235	Arrange	自動配置
+236	Keep altitude and heading	高度と方向を維持
+237	Submit fleet	艦隊を提出
+238	Submit fleet and formation	艦隊と陣形を登録
+239	Opponent hosted	相手が実行
+240	You hosted	自分が実行
+241	Rating {0:0.0} → {1:0.0}	レーティング {0:0.0} → {1:0.0}
+242	\nHealth {0:0.0}% : {1:0.0}%	\n耐久率 {0:0.0}% : {1:0.0}%
+243	Battle	戦闘
+244	Match and watch	マッチングと観戦
+245	Rating · {0} matches	レーティング · {0}戦
+246	Submit your fleet first.	先に艦隊を提出してください。
+247	Your fleet · 	自分の艦隊 · 
+248	Match fleet	この試合の艦隊
+249	Submitted fleet	提出済み艦隊
+250	Units {0} · Spawn {1:N0} · Supply {2:N0}	機体 {0} · コスト {1:N0} · 補給 {2:N0}
+251	Unsaved draft · Matching uses the fleet above	未提出の編集案あり · 試合では上記の艦隊を使用
+252	Hide formation	陣形を隠す
+253	View formation	陣形を確認
+254	Submitted positions, altitude and heading	提出済みの位置・高度・方向
+255	Retry result	結果を再送信
+256	Send saved result	保存された結果を送信
+257	Watching · 	観戦中 · 
+258	Watch	観戦
+259	Return to battle	戦闘に戻る
+260	Camera	観戦カメラ
+261	Select and follow	機体を選択して追跡
+262	Counts as a loss	敗北として記録
+263	Next match	次の試合
+264	Find opponent	対戦相手を検索
+265	Units {0} · Limit {1:0.#} min	機体 {0} · 制限 {1:0.#}分
+266	Deadline: 	提出期限：
+267	Deadline passed	提出期限切れ
+268	Start battle	戦闘開始
+269	Watch at 1×	等速で観戦
+270	Find match	マッチング
+271	Use submitted fleet	提出済み艦隊で参加
+272	Latest results	最新の戦績
+273	Return to menu	メニューに戻る
+274	History	戦績
+275	Recent battles	最近の試合
+276	No completed matches	完了した試合がありません
+277	Last 20 matches	直近20試合
+278	Ranking	ランキング
+279	Player ratings	参加者のレーティング
+280	{0} matches	{0}戦
+281	Top 100	上位100人
+282	Account	アカウント
+283	Sign in or register	ログイン・新規登録
+284	Reconnect	再接続
+285	Saved session	保存されたログイン
+286	Set username	ユーザーIDを登録
+287	Keep existing account	既存のアカウントを維持
+288	Nickname: 	ニックネーム：
+289	Username: 	ユーザーID：
+290	Sign out	ログアウト
+291	After finishing your match	進行中の試合終了後
+292	Change password	パスワード変更
+293	Set a new password	新しいパスワードを設定
+294	Sign-in form	ログインフォーム
+295	Register	新規登録
+296	Registration form	登録フォーム
+297	Contact admin for account help	アカウントを紛失した場合は管理者に連絡してください
+298	Username	ユーザーID
+299	Nickname	ニックネーム
+300	Current password	現在のパスワード
+301	Password	パスワード
+302	New password	新しいパスワード
+303	Confirm password	パスワード確認
+304	New password: 8–32 characters	新しいパスワード：8～32文字
+305	Username & password: 8–32 characters\nUsername: A–Z, 0–9, _ . -\nPublic nickname: 2–24 characters	ID・パスワード：8～32文字\nID：A–Z、0–9、_ . -\n公開ニックネーム：2～24文字
+306	Create account	アカウント作成
+307	Sign in	ログイン
+308	Save username	IDを保存
+309	Save password	パスワードを保存
+310	Register and sign in	登録してログイン
+311	Confirm	確認
+312	Select event	大会を選択
+313	Use HTTPS. HTTP is allowed only for a local test server.	HTTPSを使用してください。HTTPはローカルテストサーバー専用です。
+314	Invalid server response. Check the server address.	サーバー応答が不正です。アドレスを確認してください。
+315	Server request failed.	サーバーへのリクエストに失敗しました。
+316	Blueprint files must not exceed 8 MiB.	BPファイルは8 MiB以下にしてください。
+317	Invalid FTD blueprint format.	FTDのBP形式が不正です。
+318	Invalid match ID.	試合IDが不正です。
+319	This match has no event fleet data.	この試合には大会用艦隊のデータがありません。
+320	Blueprint file is too large.	BPファイルが大きすぎます。
+321	Match blueprint checksum does not match.	試合のBPチェックサムが一致しません。
+322	Preparing	準備中
+323	Follow	追跡
+324	 · ESC Camera menu\nF6 Free · F7/F8 Vehicle · F9 Top	 · ESC カメラメニュー\nF6 自由 · F7/F8 機体 · F9 上から
